@@ -1,7 +1,13 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
-  margin-bottom: 0;
+  margin-top: auto;
   border-radius: 0;
+  overflow: auto;
+  display:block;
+  position: fixed;
+  top: 0;
+  font-family:"Raleway";
+  width: 100%;
 }
 
 /* Add a gray background color and some padding to the footer */
@@ -52,24 +58,37 @@ font-weight:bold;
 
 h4 {
   color:#391D6A;
-  font-size:20px;
+  font-size:16px;
   font-family:"Raleway";
 }
 
 .problem{
   margin:10px;
   text-align:center;
+}
 
+.heading{
+  color:#391D6A;
+  font-size:20px;
+  font-family:"Raleway";
 }
 
 .majortitles {
   width: 80%;
   margin-left: 10%;
+  font-family:"Raleway";
+  font-weight:bold;
+  font-size:25px;
+  color:#391D6A;
 }
 
 .minortitles {
   width: 80%;
   margin-left: 10%;
+  color:#9B9B9B;
+  font-family:"Raleway"
+  font-size:18px;
+
 }
 
 /*.paneltext-center {
@@ -88,7 +107,7 @@ h4 {
 .btn2 {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  font-family: "Avenir", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #BC9448;
   border-radius: 50px;
   font-size: 12px;
@@ -124,18 +143,94 @@ h4 {
   border-color:#C2C0C8;
 }
 
-.heading{
-  color:#391D6A;
-  font-size:20px;
-  font-family:"Raleway";
-}
 
 .headleft {
   color: #391D6A;
-  font-size: 12px;
+  font-size: 16px;
   font-family: "Avenir";
 }
 
 .frustrationlist {
   font-family: "Avenir";
+  font-size:16px;
+  min-height:95px;
+
+
+}
+
+.motives {
+  color: green;
+  font-weight:bold;
+}
+
+
+.frust{
+  color: red;
+  font-weight:bold;
+  margin-top: 10px;
+}
+
+.prob1 {
+padding-top:10px;
+padding-bottom:10px;
+float:left;
+width:auto;
+padding-left:10px;
+padding-right:10px;
+box-shadow:0px 1px 1px 1px #C2C0C8;
+background-color:white;
+}
+
+.prob2 {
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+float:right;
+width:auto;
+padding-right:10px;
+box-shadow:0px 1px 1px 1px #C2C0C8;
+background-color:white;
+}
+
+.options{
+  font-family: "Avenir";
+  font-size:16px;
+  color:#391D6A;
+
+}
+
+.research {
+  font-family:"Avenir";
+  font-weight:lighter;
+  font-size:16px;
+}
+
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 692px)   {
+    .prob1, .nomarg, .prob2{
+        width:100%;
+        float:none;
+        margin:auto;
+    }
+
+}
+
+@media screen and (max-width: 692px)   {
+    .elimmarg {
+        margin:auto;
+    }
+
+}
+
+.padme {
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
 }
