@@ -53,15 +53,15 @@ p {
 
 h1 {
 color:#391D6A;
-font-family:"Raleway";
+font-family:"Oxygen";
 font-size:30px;
 font-weight:bold;
 }
 
 h4 {
-  color:#391D6A;
+  color:#9B96A7;
   font-size:16px;
-  font-family:"Raleway";
+  font-family:"Oxygen";
 }
 
 .problem{
@@ -72,13 +72,13 @@ h4 {
 .heading{
   color:#391D6A;
   font-size:20px;
-  font-family:"Raleway";
+  font-family:"Avenir";
 }
 
 .majortitles {
   width: 80%;
   margin-left: 15%;
-  font-family:"Raleway";
+  font-family:"Avenir";
   font-weight:bold;
   font-size:25px;
   color:#391D6A;
@@ -88,7 +88,7 @@ h4 {
   width: 80%;
   margin-left: 15%;
   color:#9B9B9B;
-  font-family:"Raleway"
+  font-family:"Avenir"
   font-size:18px;
 
 }
