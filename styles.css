@@ -6,7 +6,7 @@
   display:block;
   position: fixed;
   top: 0;
-  font-family:"Raleway";
+  font-family:"Source Sans Pro";
   width: 100%;
 }
 
@@ -40,7 +40,7 @@ p {
   color:#333333;
   font-size:16px;
   line-height: normal;
-  font-family:"Avenir";
+  font-family:"Source Sans Pro";
 }
 .image {
   max-width:100%;
@@ -52,7 +52,7 @@ p {
 
 
 h1 {
-color:#9B96A7;
+color:#391D6A;
 font-family:"Oxygen";
 font-size:30px;
 font-weight:bold;
@@ -70,25 +70,25 @@ h4 {
 }
 
 .heading{
-  color:#391D6A;
+  color:#9B96A7;
   font-size:20px;
-  font-family:"Avenir";
+  font-family:"Oxygen";
 }
 
 .majortitles {
   width: 80%;
   margin-left: 15%;
-  font-family:"Avenir";
+  font-family:"Oxygen";
   font-weight:bold;
   font-size:25px;
-  color:#391D6A;
+  color:#9B96A7;
 }
 
 .minortitles {
   width: 80%;
   margin-left: 15%;
-  color:#9B9B9B;
-  font-family:"Avenir"
+  color:#9B96A7;
+  font-family:"Oxygen"
   font-size:18px;
 
 }
