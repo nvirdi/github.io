@@ -35,11 +35,20 @@
   margin:auto;
 }
 
+.p1 {
+  color:rgba(0,0,0,0.80);
+  font-size:14px;
+  line-height: 1.5;
+  font-family:"Source Sans Pro";
+  text-align:left;
+  margin-left:10px;
+}
+
 
 p {
-  color:#333333;
-  font-size:16px;
-  line-height: normal;
+  color:rgba(0,0,0,0.80);
+  font-size:18px;
+  line-height: 1.6;
   font-family:"Source Sans Pro";
 }
 .image {
@@ -52,7 +61,7 @@ p {
 
 
 h1 {
-color:#391D6A;
+color:#9B96A7;
 font-family:"Oxygen";
 font-size:30px;
 font-weight:bold;
@@ -109,8 +118,8 @@ h4 {
 .btn2 {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  font-family: "Raleway", sans-serif;
-  color: #BC9448;
+  font-family: "Oxygen", sans-serif;
+  color: rgba(255,105,225,0.67);
   border-radius: 50px;
   font-size: 12px;
   font-weight:600;
@@ -128,7 +137,7 @@ h4 {
   margin-left:auto;
   margin-right:auto;
   border-radius: 3px;
-  border: solid #BC9448 1px;
+  border: solid rgba(255,105,225,0.67) 1px;
   position:relative;
   display:table;
   transition: color .2s ease-in-out;
@@ -139,10 +148,10 @@ h4 {
 }
 
 .btn2:hover {
-  background: #C2C0C8;
+  background: #9B96A7;
   text-decoration: none;
   color:#FFFFFF;
-  border-color:#C2C0C8;
+  border-color:#9B96A7;
 }
 
 
@@ -153,21 +162,29 @@ h4 {
 }
 
 .frustrationlist {
-  font-family: "Avenir";
+  font-family: "Oxygen";
   font-size:16px;
   min-height:95px;
 
+/*
+}li::before {content: "•"; color: rgba(255,105,225,0.67);
+  display: inline-block; width: 1em;
+  margin-left: -3em}*/
 
 }
 
 .motives {
-  color: green;
+  font-family:"Oxygen";
+  color: #391D6A;
+  font-size:14px;
   font-weight:bold;
 }
 
 
 .frust{
-  color: red;
+  font-family:"Oxygen";
+  color: #391D6A;
+  font-size:14px;
   font-weight:bold;
   margin-top: 10px;
 }
@@ -202,7 +219,7 @@ background-color:white;
 }
 
 .research {
-  font-family:"Avenir";
+  font-family:"Oxygen";
   font-weight:lighter;
   font-size:16px;
 }
