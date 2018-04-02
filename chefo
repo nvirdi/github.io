@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chef O Case Study</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/5433a87baa.js"></script>
+
+<!--CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+<body>
+
+  <nav class="navbar navbar-inverse" style="z-index: 99;background-color:#FCFCFC;border:none;margin-bottom:auto">
+    <div class="container-fluid">
+      <div class="navbar-header" >
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:#9B96A7">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand headleft" href="http://www.nvirdi.com" style="color:#9B96A7;font-family:Source Sans Pro;font-size:14px;font-weight:400;" href="#">NAVNIT VIRDI  <span style="color:rgba(255,105,225,0.67);font-size:16px;">| </span> UX DESIGNER</a></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#work" style="color:rgba(255,105,225,0.67);font-weight:400;font-size:14px;font-family:Source Sans Pro;">work</a></li>
+          <li><a href="http://www.nvirdi.com/about" style="color:#9B96A7;font-weight:400;font-size:14px;font-family:Source Sans Pro;">about</a></li>
+          <li><a href="Images/Home/NVirdi 2.pdf" target="_blank" style="color:#9B96A7;font-weight:400;font-size:14px;font-family:Source Sans Pro;">resume</a></li>
+          <li><a href="mailto:nvirdi3@gmail.com" target="_blank" class="icons-sm fb-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-envelope fa-lg white-text mr-md-4"> </i></a>
+          <li><a href="https://www.linkedin.com/in/navnitvirdi/" target="_blank" class="icons-sm li-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i></a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="panel img-responsive" style="margin-top:50px">
+    <img class="image" src="Images/Home/ChefBkground.png" alt="image">
+  </div>
+
+  <div class="container text-center">
+    <h1>CHEF O</h1>
+    <p style="text-align:center; cursor:default; color:#9B96A7;font-family:Oxygen; margin-top:0px;">Discovery | Ideation | Implementation</p>
+    <div class="row">
+      <div class="col-lg-12 text-center"><br>
+        <p class="intro">
+          Not your average cooking app, Chef O recipies are fresh, easy and delicious.
+          Find recipies based on the ingredients you have and let Chef O help you decide.
+        </p>
+        <br>
+        <a href="https://invis.io/K3R13810643MSZ" class="btn2" target="_blank">VIEW PROTOTYPE</a>
+      </div>
+    </div>
+  </div><br><br>
+
+  <div class="text-center" style="background-image:url(Images/chefo/ChefBkground2.png);background-size:cover;">
+    <br><br><br><br><br>
+    <div class="row" style="width:90%;margin:auto;">
+      <div class="col-sm-1" style="width:11%"></div>
+      <div class="col-md-4" class="prob1">
+        <div class="padme" style="width:auto;min-width:200px;box-shadow:0px 1px 1px 1px #C2C0C8;background-color:white;">
+          <h4>PROBLEM</h4>
+          <p class="problem">
+            Deciding what to eat or cook every day can be tough especially when cooking for others, short on time, or no ingredients.
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-2" style="width:11%"></div>
+      <div class="col-md-4" class="prob2">
+        <div class="padme" style="width:auto;min-width:200px;box-shadow:0px 1px 1px 1px #C2C0C8;background-color:white;">
+          <h4>SOLUTION</h4>
+          <p class="problem">
+            Chef O helps users decide what to cook and what to make with the ingredients you have, making it easy to cook at home.
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-1" style="width:8%"></div>
+    </div>
+    <br><br><br><br><br>
+  </div><br><br>  <br><br><br><br><br>
+
+  <div class="text-left">
+    <hr style="margin-top:0px">
+    <h4 class="majortitles heading">DISCOVERY</h4>
+    <div class="row" style="width:70%;margin:auto">
+      <p>
+       To better understand the user, I surveyed over 50 respondants on their cooking habits from expert foodies
+       to non cooks. Below are the findings that helped guide my design process.
+    </p><br><br>
+    </div>
+    <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
+      <div class="row">
+        <div class="col-md-2" >
+        </div>
+        <div class="col-md-4" style="padding-bottom:10px">
+          <span class="research text-left"><img src="Images/chefo/Icon1.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">72% cook 3-5 times per week at home</span>
+        </div>
+        <div class="col-md-4" style="padding-bottom:10px">
+          <span class="research text-left"><img src="Images/chefo/Icon2.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">60% cook for 2-5 people daily</span>
+        </div>
+        <div class="col-sm-2">
+        </div>
+      </div>
+      <div class="row" >
+        <div class="col-sm-2" >
+        </div>
+        <div class="col-md-4" style="padding-bottom:10px">
+          <span class="research text-left"><img src="Images/chefo/Icon3.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">95% choose quick meals, then vegetarian, low sugar & fat</span>
+        </div>
+        <div class="col-md-4" style="padding-bottom:10px">
+          <span class="research text-left"><img src="Images/chefo/Icon4.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">80% stated biggest frustration: can’t decide what to eat</span>
+        </div>
+        <div class="col-sm-2" >
+        </div>
+      </div>
+      <div class="row" >
+        <div class="col-sm-2" >
+        </div>
+        <div class="col-md-4" style="padding-bottom:10px">
+          <span class="research text-left"><img src="Images/chefo/Icon5.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">85% said it would be easier to cook if they had the ingredients</span>
+        </div>
+        <div class="col-md-4" style="padding-bottom:10px">
+          <span class="research text-left"><img src="Images/chefo/Icon6" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">57% stated current apps too complex for quick cooking</span>
+        </div>
+        <div class="col-sm-2" >
+        </div>
+      </div>
+    </div>
+
+  </div><br><br><br>
+
+  <div class="text-left">
+    <h4 class="minortitles heading" >PERSONAS</h4>
+    <div class="row" style="width:70%;margin:auto">
+      <p class="masterp">
+      Users enjoy or want to cook at home but are frustrated by deciding what to cook with what they have.
+      I interviewed three potential users to fully understand their cooking goals.
+      </p><br><br>
+    </div>
+  </div>
+
+<div style="margin:auto;background-color:#FCFCFC;padding:20px 20px 20px 20px">
+  <div class="container text-center">
+    <div class="row" style="width:70%; margin:auto">
+      <div class="col-sm-4">
+        <h4 style="color:rgba(255,105,225,0.67); font-size:20px;font-weight:bold;">DAILY COOK</h4>
+        <div style="padding:15px; box-shadow: 0px 1px 1px 1px #C2C0C8;">
+        <img src="Images/chefo/UserImage1.png" style="width:150px;height:150px;border-radius:50%;margin-bottom:10px" class=".img-rounded" alt="Image"><br>
+        <p style="color:#391D6A">Elizabeth Meyers <br>29 / Oakland / Designer </br></p>
+        <br>
+          <p class="motives">Motivations</p>
+          <li class="p1"> Cooks daily for 2</li>
+          <li class="p1"> Likes to cook healthy</li>
+          <li class="p1"> Enjoys trying new recipies </li>
+
+          <br>
+
+          <p class="frust">Frustrations</p>
+          <li class="p1"> Not enough healthy options</li>
+          <li class="p1"> Can't decide what to make daily</li>
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <h4 style="color:rgba(255,105,225,0.67); font-size:20px;font-weight:bold;">GO GETTER</h4>
+        <div style="padding:15px; box-shadow: 0px 1px 1px 1px #C2C0C8;">
+        <img src="Images/chefo/UserImage2.png" style="width:150px;height:150px;border-radius:50%;margin-bottom:10px" class=".img-rounded" alt="Image"><br>
+        <p style="color:#391D6A">Karen Bradford <br> 31 / San Francisco / COO</br></p>
+        <br>
+          <p class="motives">Motivations</p>
+          <li class="p1">Cooks 2-4 times a week for 3</li>
+          <li class="p1">Loves experimenting with food</li>
+          <li class="p1">Wants fun, fresh, and fast recipies</li>
+
+          <br>
+          <p class="frust">Frustrations</p>
+          <li class="p1">Not enough time to cook</li>
+          <li class="p1">Doesn't have ingredients needed</li>
+
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <h4 style="color:rgba(255,105,225,0.67); font-size:20px;font-weight:bold;">ENTHUSIAST</h4>
+        <div style="padding:15px; box-shadow: 0px 1px 1px 1px #C2C0C8;">
+        <img src="Images/chefo/UserImage3.png" style="width:150px;height:150px;border-radius:50%;margin-bottom:10px" class=".img-rounded" alt="Image"><br>
+        <p style="color:#391D6A">Jason Sein <br> 23 / Seattle / Sales </br></p>
+        <br>
+          <p class="motives">Motivations</p>
+          <li class="p1">Uses the same recipies</li>
+          <li class="p1">Wants help deciding what to cook</li>
+          <li class="p1">Wants homemade meals but can't cook</li>
+
+          <br>
+
+          <p class="frust">Frustrations</p>
+          <li class="p1">Complicated recipies</li>
+          <li class="p1">Doesn't have ingredients needed</li>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div><br><br><br>
+  <div class="text-center">
+    <h4 class="minortitles heading text-left" >COMPETITIVE ANALYSIS</h4>
+    <div class="frustrationlist row" style="width:70%;margin:auto">
+      <p class="masterp text-left">
+        After speaking with users, many of them want to cook at home more but are often impacted by time,
+        personal health requirements, or not knowing what to cook with what they have.  Although there are
+        many cooking apps out there, it was important to create an experience that makes people want to
+        cook at home more. Below are three cooking competitors where I asked users to tell me what they like
+        or dislike about them.
+      </p>
+      <br><br><br>
+    </div>
+    <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
+    <div class="frustrationlist row" style="width:70%;margin:auto">
+      <div class="col-sm-4" style="min-width:200px;">
+        <div style="background-color:#FFFFFF;padding:10px;box-shadow: 0px 1px 1px 1px #C2C0C8;">
+          <h4 class="text-center"><img src="Images/chefo/yummly.png" style="width:50%;max-height:50px" alt="Image"></h4>
+          <div style="min-height:120px">
+          <img src="Images/Home/greencheck.png" style="width:20px;height:20px;border-radius:50%;margin-bottom:10px" alt="Image">
+          <p class="motives">Users Liked </p>
+              <li class="p1">Modern design</li>
+              <li class="p1">Unique reviews</li>
+          </div>
+          <div style="min-height:100px">
+          <img src="Images/Home/redx.png" style="width:20px;height:20px;border-radius:50%;" alt="Image">
+            <p class="frust" >Users Disliked </p>
+              <li class="p1">Complicated recipies</li>
+              <li class="p1">Difficult toggle between ingredients</li>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4" style="min-width:200px;">
+        <div style="background-color:#FFFFFF;padding:10px;box-shadow: 0px 1px 1px 1px #C2C0C8;">
+          <h4 class="text-center"><img src="Images/chefo/allrecipes.png" style="width:40%;max-height:50px" alt="Image"></h4>
+          <div style="min-height:120px">
+            <img src="Images/Home/greencheck.png" style="width:20px;height:20px;border-radius:50%;margin-bottom:10px" alt="Image">
+            <p class="motives">Users Liked </p>
+              <li class="p1">Variety of recipies</li>
+              <li class="p1">Easy to follow design</li>
+
+          </div>
+          <div style="min-height:100px">
+            <img src="Images/Home/redx.png" style="width:20px;height:20px;border-radius:50%;" alt="Image">
+            <p class="frust">Users Disliked </p>
+              <li class="p1">Information overload</li>
+              <li class="p1">Some recipies not found</li>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4" style="min-width:200px">
+        <div style="background-color:#FFFFFF;padding:10px;box-shadow: 0px 1px 1px 1px #C2C0C8;">
+              <h4 class="text-center"><img src="Images/chefo/cookpad.png" style="width:90%;min-height:45px" alt="Image"></h4>
+          <div style="min-height:120px">
+            <img src="Images/Home/greencheck.png" style="width:20px;height:20px;border-radius:50%;margin-bottom:10px" alt="Image">
+            <p class="motives">Users Liked </p>
+              <li class="p1">Can search ingredients</li>
+              <li class="p1">Easy to follow recipies</li>
+
+          </div>
+          <div style="min-height:100px">
+            <img src="Images/Home/redx.png" style="width:20px;height:20px;border-radius:50%;" alt="Image">
+            <p class="frust">Users Disliked </p>
+              <li class="p1">Recipies don't show images</li>
+              <li class="p1">Outdated recipies or design</li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <br><br><br>
+  </div>
+
+  </div><br><br><br><br>
+
+  <div class="text-center">
+    <h4 class="majortitles heading text-left" >IDEATION</h4>
+    <div class="row" style="width:70%;margin:auto">
+        <p class="text-left">After researching the users, market, and trends, I discovered
+          there is still a need for an easy, clean, and engaging cooking experience. Keeping
+          this in mind, I created user flows that:
+          1. ) Helps the user make a quick decision based on what they want or have and
+          2. ) Displays recipie information in a way that is easy to read while cooking.
+        </p>
+    </div>
+    <div class="row" style="width:70%;margin:auto;margin-top:50px">
+      <h4 class="text-center" style="width:90%;margin:auto;color:rgba(255,105,225,0.67); font-size:20px;">Decide What to Cook with Personalized Filters</h4>
+      <img src="Images/chefo/UserFlow1.png" style="margin-top:30px;margin-bottom:30px;width:100%;" alt="Image">
+    </div>
+    <div class="row" style="width:79%;margin:auto; margin-top:40px">
+      <h4 class="text-center" style="width:80%;margin:auto;color:rgba(255,105,225,0.67); font-size:20px;">Choose Recipe and Review Directions </h4>
+      <img src="Images/chefo/UserFlow2.png" style="margin-top:30px;margin-bottom:30px;width:100%;" alt="Image">
+    </div>
+  </div><br><br><br>
+
+  <div class="text-center">
+    <hr style="margin-top:0px">
+    <h4 class="minortitles heading text-left">BRANDING</h4>
+    <div class="row" style="width:70%;margin:auto">
+        <p class="text-left">
+        Based on my research, I wanted to create a brand concept that was simple, modern, and memorable
+        for easy home cooking. While sketching possible logo ideas, I was ultimately inspired by my bearded
+        foodie husband, Omneet. As a non cook myself, I was fortunate to marry an amazing cook who can come
+        up with great meals using simple, every day ingredients, a major user goal. Taking this idea, Chef O
+        was created using stocklogos, an energized, reliable chef who can tell you what to eat and how to make it.
+      </p>
+    </div>
+    <br><br>
+    <div class="row" style="width:73%;margin:auto">
+      <div class="col-sm-6">
+        <img src="Images/chefo/branding1.png" style="width:100%;box-shadow: 0px 1px 1px 1px #C2C0C8;" alt="Image">
+      </div>
+      <div class="col-sm-6">
+        <img src="Images/chefo/branding2.png" style="width:100%;box-shadow: 0px 1px 1px 1px #C2C0C8;" alt="Image">
+      </div>
+    </div>
+  </div><br><br><br><br>
+
+    <div class="row" style="width:73%;margin:auto">
+      <div class="col-sm-6">
+        <img src="Images/chefo/styleguide.png" style="width:100%;box-shadow: 0px 1px 1px 1px #C2C0C8;padding-top:5px;margin-top:10px;padding-bottom:1px;" alt="Image">
+      </div>
+    </div>
+    <br><br><br><br><br>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <hr style="margin-top:0px">
+    <h4 class="minortitles heading text-left" >WIREFRAMES</h4>
+    <div class="row" style="width:70%;margin:auto">
+      <p class="text-left">
+        I created wireframes to help visualize the UI and asked potential users to go through each screen with me.
+        I transitioned my drawings to Sketch to align with IOS design guidelines and maintain a consistent, clean
+        flow.
+      </p><br><br>
+    </div>
+    <div class="row" style="width:78%;margin:auto">
+      <div class="col-sm-2">
+        <img src="Images/chefo/wireframes.png" style="width:60%;box-shadow: 0px 1px 1px 1px #C2C0C8" alt="Image">
+      </div>
+    </div><br><br>
+  </div><br><br><br>
+
+  <div class="text-center">
+    <h4 class="majortitles heading text-left" >IMPLEMENTATION</h4>
+    <div class="row" style="width:70%;margin:auto">
+      <p class="text-left">
+       Throughout the wireframe process, I tested various UX and visual elements with users
+       to ensure an engaging experience.  For example, a major user goal is to browse and add
+       ingredients you already have to find recipies. Below are three versions for this experience,
+       which could be displayed alphabetically or by category.  Users found Option B, ingredients
+       listed horizontally, the most easy to use and get started, yet found the scrolling distracting.
+      </p>
+  <div style="margin:auto;background-color:#FCFCFC;padding:20px 20px 20px 20px">
+    <div class="row" style="width:70%;margin:auto"><br><br>
+    <img src="Images/chefo/UserTest1.png" style="width:100%;" alt="Image">
+  </div>
+<br><br><br>
+    <p class="text-left">
+    Taking this feedback, I added categories on top to filter ingredients, to keep
+    the user focused on the end goal.</p>
+  </div>
+</div>
+<div class="row" style="width:70%;margin:auto">
+<div style="margin:auto;background-color:#FCFCFC;padding:20px 20px 20px 20px">
+<div class="row" style="width:70%;margin:auto"><br><br>
+<img src="Images/chefo/UserTest2.png" style="width:100%;" alt="Image">
+</div>
+<br><br><br>
+<p class="text-left">
+  Testing visual UX elements was also important to highlight easy cooking and a memorable brand.
+  Below are two versions of recipie filters each of which portray a different cooking experience.
+  Users found version B engaging but also intimidating. Ultimately, version A was best as it again
+  helped the user focus on the end goal using color more strategically.</p>
+</div>
+<div class="row" style="width:70%;margin:auto"><br><br>
+<img src="Images/chefo/UserTest3.png" style="width:100%;" alt="Image">
+</div>
+</div>
+
+  <div class="text-center">
+    <hr style="margin-top:0px">
+    <h4 class="minortitles heading text-left" >PROTOTYPE</h4>
+    <div class="row" style="width:70%;margin:auto">
+      <p class="text-left">
+        Throughout the design process, I learned how to get through complex UI challenges such as how
+        to categorize ingredients logically and work with conflicting user feedback. My goal was to create
+        an inspiring recipe app for easy, everyday cooking. You can view the full prototype below and experience
+        Chef O recipies.
+      </p><br>
+
+      <a href="https://invis.io/K3R13810643MSZ" class="btn2" target="_blank">VIEW FINAL DESIGN</a>
+    </div><br><br><br>
+
+    <div class="panel img-responsive">
+      <img class="image" src="Images/Home/ChefBkground.png" alt="image">
+    </div>
+
+      </div>
+      </div>
+    </div><br>
+  </div><br><br><br>
+
+  <footer class="page-footer indigo center-on-small-only pt-0">
+
+      <!--Footer Links-->
+      <div class="container">
+
+          <!--First row-->
+          <div class="row">
+
+              <!--First column-->
+              <div class="col-md-12 text-center">
+
+                <div class="footer-socials mb-5 flex-center">
+                    <a href="mailto:nvirdi3@gmail.com" target="_blank" class="icons-sm fb-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-envelope fa-lg white-text mr-md-4"> </i></a>
+                    <a href="https://www.linkedin.com/in/navnitvirdi/" target="_blank" class="icons-sm li-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i></a>
+                </div>
+              </div>
+              <!--/First column-->
+          </div>
+          <!--/First row-->
+      </div>
+      <!--/Footer Links-->
+
+      <!--Copyright-->
+      <br><br><br><br>
+        <div class="footer-copyright">
+            <div class="container-fluid text-right" style="margin-top:50px;font-family:Avenir;font-size:12px;color:#9B96A7;">
+                <span style="color:rgba(255,105,225,0.67);">  © </span> 2017 www.nvirdi.com
+            </div>
+        </div>
+      <!--/Copyright-->
+
+  </footer>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111633989-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111633989-1');
+</script>
+
+</body>
+</html>
