@@ -1,560 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Playground Case Study</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/5433a87baa.js"></script>
+    <title>Playground Case Study</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/5433a87baa.js"></script>
 
-<!--CSS -->
-  <link rel="stylesheet" href="styles.css">
+    <!--CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
     }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 </script>
 <body>
 
-  <nav class="navbar navbar-inverse" style="z-index: 99;background-color:#FCFCFC;border:none;margin-bottom:auto">
+  <nav class="navbar navbar-inverse" style="background-color:#FFFFFF;border:none;margin-bottom:auto">
     <div class="container-fluid">
       <div class="navbar-header" >
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:#9B96A7">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:#D4D6DA; border:none;">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand headleft" href="http://www.nvirdi.com" style="color:#9B96A7;font-family:Source Sans Pro;font-size:14px;font-weight:400;" href="#">NAVNIT VIRDI  <span style="color:rgba(255,105,225,0.67);font-size:16px;">| </span> UX DESIGNER</a></a>
+        <a class="navbar-brand headleft" href="http://www.nvirdi.com" style="color:#4C20DE;font-family:Source Sans Pro;font-size:20px;font-weight:700;" href="#">NV |  <span style="color:#000000;font-weight:300;font-size:20px;">UX Designer</span></a></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#work" style="color:rgba(255,105,225,0.67);font-weight:400;font-size:14px;font-family:Source Sans Pro;">work</a></li>
-          <li><a href="http://www.nvirdi.com/about" style="color:#9B96A7;font-weight:400;font-size:14px;font-family:Source Sans Pro;">about</a></li>
-          <li><a href="Images/Home/NVirdi 2.pdf" target="_blank" style="color:#9B96A7;font-weight:400;font-size:14px;font-family:Source Sans Pro;">resume</a></li>
-          <li><a href="mailto:nvirdi3@gmail.com" target="_blank" class="icons-sm fb-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-envelope fa-lg white-text mr-md-4"> </i></a>
-          <li><a href="https://www.linkedin.com/in/navnitvirdi/" target="_blank" class="icons-sm li-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i></a>
+          <li><a href="#work" style="color:#4C20DE;font-weight:700;font-size:16px;text-decoration:underline;font-family:Source Sans Pro;">WORK</a></li>
+          <li><a href="http://www.nvirdi.com/about" style="color:#000000;font-weight:700;font-size:16px;font-family:Source Sans Pro;">ABOUT</a></li>
+          <li><a href="mailto:nvirdi3@gmail.com" target="_blank" class="icons-sm fb-ic" style='color:#D4D6DA;'><i class="fa fa-envelope fa-lg white-text mr-md-4"> </i></a>
+          <li><a href="https://www.linkedin.com/in/navnitvirdi/" target="_blank" class="icons-sm li-ic" style='color:#D4D6DA;'><i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i></a>
         </ul>
       </div>
     </div>
   </nav>
+  <br><br><br><br><br>
 
-  <div class="panel img-responsive" style="margin-top:50px">
-    <img class="image" src="Images/Home/PGmockup.png" alt="image">
-  </div>
 
-  <div class="container text-center">
-    <h1>PLAYGROUND</h1>
-    <p style="text-align:center; cursor:default; color:#9B96A7;font-family:Oxygen; margin-top:0px;">Discovery | Ideation | Implementation</p>
+<div class="container" style="width:50%;">
+  <h1>PLAYGROUND</h1>
+    <a href="https://invis.io/JBEJEMG5Z" class="btn2" target="_blank">VIEW PROTOTYPE</a>
+    </p>
     <div class="row">
-      <div class="col-lg-12 text-center"><br>
-        <p class="intro">
-          At the Playground, you can find the perfect lipstick shade for your skintone. Each shade includes undertone details making it easy for anyone to color match.
-        </p>
-        <br>
-        <a href="https://invis.io/JBEJEMG5Z" class="btn2" target="_blank">VIEW PROTOTYPE</a>
-      </div>
-    </div>
-  </div><br><br>
-
-  <div class="text-center" style="background-image:url(Images/Playground/Header/pgbackground.png);background-size:cover;">
-    <br><br><br><br><br>
-    <div class="row" style="width:90%;margin:auto;">
-      <div class="col-sm-1" style="width:11%"></div>
-      <div class="col-md-4" class="prob1">
-        <div class="padme" style="width:auto;min-width:200px;box-shadow:0px 1px 1px 1px #C2C0C8;background-color:white;">
-          <h4>PROBLEM</h4>
-          <p class="problem">
-            Browsing makeup can be fun but frustrating when you can’t find a shade that matches your unique skintone.
-          </p>
+        <div class="col-lg-12">
+            <p class="intro">
+                Find your perfect lipstick shade at the Playground.
+                Each shade includes skintone details making it easy
+                for makeup shoppers to find their match.
+            </p>
         </div>
-      </div>
-      <div class="col-sm-2" style="width:11%"></div>
-      <div class="col-md-4" class="prob2">
-        <div class="padme" style="width:auto;min-width:200px;box-shadow:0px 1px 1px 1px #C2C0C8;background-color:white;">
-          <h4>SOLUTION</h4>
-          <p class="problem">
-            The Playground offers more diverse shades with skintone details included, so you can easily find your lipstick.
-          </p>
-        </div>
-      </div>
-      <div class="col-sm-1" style="width:8%"></div>
-    </div>
-    <br><br><br><br><br>
-  </div><br><br>  <br><br><br><br><br>
-
-  <div class="text-left">
-    <hr style="margin-top:0px">
-    <h4 class="majortitles heading">DISCOVERY</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p>
-      To better understand the makeup user, I conduted a survey to learn more about the shopping habits of makeup consumers. With 50 respondants, below are the main findings:
-    </p><br><br>
-    </div>
-    <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
-      <div class="row">
-        <div class="col-md-2" >
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Playground/Research/lipstick.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">90% Choose lipsticks as their favorite products</span>
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Playground/Research/question.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">60% Stated too many products to decide from</span>
-        </div>
-        <div class="col-sm-2">
-        </div>
-      </div>
-      <div class="row" >
-        <div class="col-sm-2" >
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Playground/Research/formula.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">85% Prefer Formula over brand or price</span>
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Playground/Research/skintone.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">75% Stated products don't match their skintone</span>
-        </div>
-        <div class="col-sm-2" >
-        </div>
-      </div>
-      <div class="row" >
-        <div class="col-sm-2" >
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Playground/Research/shopping.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">90% Shop at Sephora in store or online</span>
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Playground/Research/shoppingplus.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">90% Purchase new products monthly</span>
-        </div>
-        <div class="col-sm-2" >
-        </div>
-      </div>
-    </div>
-
-  </div><br><br><br>
-
-  <div class="text-left">
-    <h4 class="minortitles heading" >PERSONAS</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="masterp">
-        Based on these survey results, it was clear many users loved lipsticks but were frustrated by finding them. To further understand this issue, I interviewed three potential users below, all of which had one common problem: color-matching.
-      </p><br><br>
-    </div>
-  </div>
-
-<div style="margin:auto;background-color:#FCFCFC;padding:20px 20px 20px 20px">
-  <div class="container text-center">
-    <div class="row" style="width:70%; margin:auto">
-      <div class="col-sm-4">
-        <h4 style="color:rgba(255,105,225,0.67); font-size:20px;font-weight:bold;">TREND SETTER</h4>
-        <div style="padding:15px; box-shadow: 0px 1px 1px 1px #C2C0C8;">
-        <img src="Images/Playground/Research/userimage1.png" style="width:150px;height:150px;border-radius:50%;margin-bottom:10px" class=".img-rounded" alt="Image"><br>
-        <p style="color:#391D6A">Vilet Brooks <br>27 / Seattle / Stylist </br></p>
-        <br>
-          <p class="motives">Motivations</p>
-          <li class="p1"> Avid Instagtam Scroller</li>
-          <li class="p1"> Gives her friends makeovers</li>
-          <li class="p1">Matches lipsticks and outfits</li>
-
-          <br>
-
-          <p class="frust">Frustrations</p>
-          <li class="p1"> Not enough ingredient info</li>
-          <li class="p1"> Limited selection of shades</li>
-
-        </div>
-      </div>
-
-      <div class="col-sm-4">
-        <h4 style="color:rgba(255,105,225,0.67); font-size:20px;font-weight:bold;">GO GETTER</h4>
-        <div style="padding:15px; box-shadow: 0px 1px 1px 1px #C2C0C8;">
-        <img src="Images/Playground/Research/userimage2.png" style="width:150px;height:150px;border-radius:50%;margin-bottom:10px" class=".img-rounded" alt="Image"><br>
-        <p style="color:#391D6A">Nicole Lewis <br> 31 / San Francisco / Nurse</br></p>
-        <br>
-          <p class="motives">Motivations</p>
-          <li class="p1">Needs a daily go to shade</li>
-          <li class="p1">Wears reds or nude shades</li>
-          <li class="p1">Watches makeup tutorials</li>
-
-          <br>
-          <p class="frust">Frustrations</p>
-          <li class="p1">Confused when shopping</li>
-          <li class="p1">Limited selection of shades</li>
-
-
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <h4 style="color:rgba(255,105,225,0.67); font-size:20px;font-weight:bold;">ENTHUSIAST</h4>
-        <div style="padding:15px; box-shadow: 0px 1px 1px 1px #C2C0C8;">
-        <img src="Images/Playground/Research/userimage3.png" style="width:150px;height:150px;border-radius:50%;margin-bottom:10px" class=".img-rounded" alt="Image"><br>
-        <p style="color:#391D6A">Sherry Mahavi <br> 24 / San Diego / Designer </br></p>
-        <br>
-          <p class="motives">Motivations</p>
-          <li class="p1">Loves pink lipsticks</li>
-          <li class="p1">Enjoys reading beauty blogs</li>
-          <li class="p1">Likes trying new lipsticks</li>
-
-          <br>
-
-          <p class="frust">Frustrations</p>
-          <li class="p1">Limited relevant reviews</li>
-          <li class="p1">Limited selection of shades</li>
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-  </div><br><br><br>
-  <div class="text-center">
-    <h4 class="minortitles heading text-left" >COMPETITIVE ANALYSIS</h4>
-    <div class="frustrationlist row" style="width:70%;margin:auto">
-      <p class="masterp text-left">
-        After getting to know the users, a competitive analysis was completed to learn more about the current solutions already out there.  Below are three brands that offer some form of lipstick customization and solve the user’s frustrations. Respondants were asked to review these competitors and let me know their thoughts on ease of use and color matching.
-      </p>
-      <br><br><br>
-    </div>
-    <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
-    <div class="frustrationlist row" style="width:70%;margin:auto">
-      <div class="col-sm-4" style="min-width:200px;">
-        <div style="background-color:#FFFFFF;padding:10px;box-shadow: 0px 1px 1px 1px #C2C0C8;">
-          <h4 class="text-center"><img src="Images/Playground/Analysis/bitelogo.png" style="width:50%;max-height:50px" alt="Image"></h4>
-          <div style="min-height:120px">
-          <img src="Images/Home/greencheck.png" style="width:20px;height:20px;border-radius:50%;margin-bottom:10px" alt="Image">
-          <p class="motives">Users Liked </p>
-              <li class="p1">Emphasis on quality formula</li>
-              <li class="p1">Catered to beginners and experts</li>
-          </div>
-          <div style="min-height:100px">
-          <img src="Images/Home/redx.png" style="width:20px;height:20px;border-radius:50%;" alt="Image">
-            <p class="frust" >Users Disliked </p>
-              <li class="p1">Limited color selection</li>
-              <li class="p1">Routes to Sephora for purchases</li>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4" style="min-width:200px;">
-        <div style="background-color:#FFFFFF;padding:10px;box-shadow: 0px 1px 1px 1px #C2C0C8;">
-          <h4 class="text-center"><img src="Images/Playground/Analysis/giellelogo.png" style="width:40%;max-height:50px" alt="Image"></h4>
-          <div style="min-height:120px">
-            <img src="Images/Home/greencheck.png" style="width:20px;height:20px;border-radius:50%;margin-bottom:10px" alt="Image">
-            <p class="motives">Users Liked </p>
-              <li class="p1">Easy to use and customize</li>
-              <li class="p1">Custom finishes for any shade</li>
-
-          </div>
-          <div style="min-height:100px">
-            <img src="Images/Home/redx.png" style="width:20px;height:20px;border-radius:50%;" alt="Image">
-            <p class="frust">Users Disliked </p>
-              <li class="p1">Limited color selection</li>
-              <li class="p1">No color matching details provided</li>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4" style="min-width:200px">
-        <div style="background-color:#FFFFFF;padding:10px;box-shadow: 0px 1px 1px 1px #C2C0C8;">
-              <h4 class="text-center"><img src="Images/Playground/Analysis/ccclogo.png" style="width:90%;min-height:45px" alt="Image"></h4>
-          <div style="min-height:120px">
-            <img src="Images/Home/greencheck.png" style="width:20px;height:20px;border-radius:50%;margin-bottom:10px" alt="Image">
-            <p class="motives">Users Liked </p>
-              <li class="p1">Detailed ingredient information</li>
-              <li class="p1">Brand search to find exact shades</li>
-
-          </div>
-          <div style="min-height:100px">
-            <img src="Images/Home/redx.png" style="width:20px;height:20px;border-radius:50%;" alt="Image">
-            <p class="frust">Users Disliked </p>
-              <li class="p1">Products are outdated</li>
-              <li class="p1">Difficult to navigate on the website</li>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <br><br><br>
-
-
-    <div class="row" style="width:90%;margin:auto">
-      <p><a href="Images/Playground/PGCompetitive.pdf" target="_blank" style="font-family:Oxygen; font-size:14px; text-decoration:underline;color:#9B96A7;font-weight:400;">View Full SWOT Analysis</a></p>
-    </div>
-  </div>
-
-
-
-
-
- 
-
-
-  </div><br><br><br><br>
-
-  <div class="text-center">
-    <h4 class="majortitles heading text-left" >IDEATION</h4>
-    <div class="row" style="width:70%;margin:auto">
-        <p class="text-left">
-          Based on research and analysis, users clearly showed a need for unique lipsticks that matched their skintone,
-          without feeling  confused when browsing. Keeping this in mind,  I created a three step process for
-          selecting a lipstick to ensure ease when browsing and checking out.
-        </p>
-    </div>
-    <div class="row" style="width:70%;margin:auto;margin-top:50px">
-      <h4 class="text-center" style="width:90%;margin:auto;color:rgba(255,105,225,0.67); font-size:20px;">Create Lipstick & Add to Bag</h4>
-      <img src="Images/Playground/userflownew1.png" style="margin-top:30px;margin-bottom:30px;width:100%;" alt="Image">
-    </div>
-    <div class="row" style="width:79%;margin:auto; margin-top:40px">
-      <h4 class="text-center" style="width:80%;margin:auto;color:rgba(255,105,225,0.67); font-size:20px;">Review Order-Checkout & Place Order</h4>
-      <img src="Images/Playground/userflownew2.png" style="margin-top:30px;margin-bottom:30px;width:100%;" alt="Image">
-    </div>
-    <div class="row" style="width:80%;margin:auto">
-      <p><a href="Images/Playground/Playground User Flows.pdf" target="_blank" style="font-family:Oxygen; font-size:14px; text-decoration:underline;color:#9B96A7;font-weight:400;">View All User Flows</a></p>
-    </div>
-  </div><br><br><br>
-
-  <div class="text-center">
-    <hr style="margin-top:0px">
-    <h4 class="minortitles heading text-left">BRANDING</h4>
-    <div class="row" style="width:70%;margin:auto">
-        <p class="text-left">
-        When creating the Playground identity, it was important to incorporate lipstick formula and the shopping habits of users.
-        When brainstorming, I decided to use my own liptstick products to help inspire potential logos. The term “swatch” and “play” stood out as they conveyed a fun and common way to explore makeup.
-        Users will swatch lipsticks to see if it matches their skintone and play with different shades. Thus, the name Playground resulted as the MVP for this design.
-      </p>
     </div>
     <br><br>
-    <div class="row" style="width:73%;margin:auto">
-      <div class="col-sm-6">
-        <img src="Images/Playground/brandimage1.png" style="width:100%;box-shadow: 0px 1px 1px 1px #C2C0C8;" alt="Image">
-      </div>
-      <div class="col-sm-6">
-        <img src="Images/Playground/brandimage2.png" style="width:100%;box-shadow: 0px 1px 1px 1px #C2C0C8;" alt="Image">
-      </div>
-    </div>
-  </div><br><br><br><br>
-
-  <div class="text-left">
-    <div class="row" style="width:70%;margin:auto">
-      <p class="text-left">
-        Using the swatches I created, lipstick images and the name Playground, I sketched the final logo below based on user feedback. Users understood the product right away with a lipstick icon, however users also enjoyed the swatch icon to emphasize formula. I created a combo of the two  logos as the final visual part of the brand identity.
-      </p>
-    </div><br><br>
-
-    <div class="row" style="width:73%;margin:auto">
-      <div class="col-sm-6">
-        <img src="Images/Playground/logo22.png" style="width:100%;box-shadow: 0px 1px 1px 1px #C2C0C8;padding-top:5px;margin-top:10px;padding-bottom:1px;" alt="Image">
-      </div>
-      <div class="col-sm-6">
-        <img src="Images/Playground/pgfulllogo.png" style="width:100%;box-shadow: 0px 1px 1px 1px #C2C0C8;padding-top:1px;margin-top:10px;padding-bottom:1px;" alt="Image">
-      </div>
-      <br><br>
-      <div class="col-sm-15">
-        <img src="Images/Playground/pgpalette.png" style="width:100%;padding-top:1px;margin-top:10px;padding-bottom:1px;" alt="Image">
-      </div>
-    </div>
-  </div><br><br><br><br><br>
-    </div>
-  </div>
-
-  <div class="text-center">
-    <hr style="margin-top:0px">
-    <h4 class="minortitles heading text-left" >WIREFRAMES</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="text-left">
-        Before applying any visual color, I sketched and created wireframes so users can actually test out the Playground. I spoke with users to understand what they expect the application to do and how they prefered to interact with it.
-        Taking this user feedback, I applied these changes throughout the wireframe process. I first started with a very different layout of the lipstick shades, however this continuously changed to ensure easy browsing for users.
-      </p><br><br>
-    </div>
-    <div class="row" style="width:78%;margin:auto">
-      <div class="col-sm-3">
-        <img src="Images/Playground/wireframe1.png" style="width:60%;box-shadow: 0px 1px 1px 1px #C2C0C8" alt="Image">
-      </div>
-      <div class="col-sm-3">
-        <img src="Images/Playground/wireframe2.png" style="width:60%;box-shadow: 0px 1px 1px 1px #C2C0C8" alt="Image">
-      </div>
-      <div class="col-sm-3">
-        <img src="Images/Playground/wireframe3.png" style="width:60%;box-shadow: 0px 1px 1px 1px #C2C0C8" alt="Image">
-      </div>
-      <div class="col-sm-3">
-        <img src="Images/Playground/wireframe4.png" style="width:60%;box-shadow: 0px 1px 1px 1px #C2C0C8" alt="Image">
-      </div>
-    </div><br><br>
-
-    <div class="row" style="width:100%;margin:auto">
-      <img src="Images/Playground/wireframe55.png" style="width:70%;" alt="Image">
-    </div>
-    <br><br><br>
-    <div class="row" style="width:100%;margin:auto">
-      <img src="Images/Playground/wireframe7.png" style="width:70%;" alt="Image">
-    </div>
-    <br><br><br><br>
-    <div class="row" style="width:80%;margin:auto">
-      <p><a href="Images/Playground/PG Wireframe PDF.pdf" target="_blank" style="font-family:Oxygen; font-size:14px; text-decoration:underline;color:#9B96A7;font-weight:400;">View All Wireframes</a></p>
-    </div>
-  </div><br><br><br>
-
-  <div class="text-center">
-    <h4 class="majortitles heading text-left" >IMPLEMENTATION</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="text-left">
-        I conducted various preference and navigation tests to ensure simple page flows that make sense to the user.
-        Each test was disributed via email, social media, and other online forums as well as in person interviews.
-        With a focus on customization, check out, sign up and writing a review, below are the results of some user tests:
-      </p>
-  <div style="margin:auto;background-color:#FCFCFC;padding:20px 20px 20px 20px">
-    <div class="row" style="width:70%;margin:auto"><br><br>
-    <img src="Images/Playground/usertesting1.png" style="width:100%;" alt="Image">
-  </div>
-<br><br><br>
-    <p class="text-left">
-    80% of users voted for Option B,
-    using images to choose their lipstick finish as oppose to buttons. Having a visual
-    idea of what the lipstick finish will look like helps the user create a more
-    personalized lipstick.</p>
-  </div>
-
-  <br><br><br>
-</div>
-<div class="row" style="width:70%;margin:auto">
-<div style="margin:auto;background-color:#FCFCFC;padding:20px 20px 20px 20px">
-<div class="row" style="width:70%;margin:auto"><br><br>
-<img src="Images/Playground/usertesting2.png" style="width:100%;" alt="Image">
-</div>
-<br><br><br>
-<p class="text-left">
-When adding a lipstick to their shopping cart/bag, users were asked if they prefer
-to be notified on the top right vs. above the Add To Bag button. Although 55% choose option A,
- I found the responses were not adaquete enough or I wanted to know more information.
- I did a secondary user test to find out if having two “Add to Bag” buttons would work
-  better for the user, with a notification above the button regardless. This prevents
-  the user from scrolling back up and they can add items in various places, creating a
-  better shopping experience</p>
-</div>
-</div>
-
-      <br><br><br>
-    <div class="row" style="width:74%;margin:auto">
-      <div class="col-sm-1"  class="nomarg"style="width:0%;margin:auto;margin-right:-15px"></div>
-      <div class="col-sm-5">
-        <div style="padding-bottom:15px;padding-right:15px;min-height:165px;float:right;margin:auto;box-shadow: 0px 1px 1px 1px #C2C0C8">
-          <p style="margin-top:16px;color:#391D6A;font-weight:500;font-family:Oxygen">Sign Up & Checkout Feedback:</p>
-          <ul class="text-left">
-            <li class="p1">Users liked less pushes to sign up</li>
-            <li class="p1">After signing up, no clear indication of sign up</li>
-            <li class="p1">Users preferred sign-up process at checkout or after purchase</li>
-          </ul>
+    <div class="row" style="width:100%; height:auto; margin:auto;">
+            <img class="img-responsive" src="Images/Home/playgroundMockup.png"  alt="Image">
         </div>
-      </div>
-      <div class="col-sm-1" class="nomarg" style="width:13%;margin:auto"></div>
-      <div class="col-sm-5" class="nomarg">
-        <div style="padding-bottom:15px;padding-right:15px;min-height:165px;float:right;margin:auto;box-shadow: 0px 1px 1px 1px #C2C0C8">
-          <p style="margin-top:16px;color:#391D6A;font-weight:500;font-family:Oxygen" >Write Review Feedback:</p>
-          <ul class="text-left">
-            <li class="p1">Users requested reviewer's name on reviews </li>
-            <li class="p1">Users preferred recommendations with reviews</li>
-            <li class="p1">'Write a Review' modal window instead of a seperate page</li>
-          </ul>
-        </div>
-      </div><br><br>
-
     </div>
-    <div class="row" style="width:70%;margin:auto"><br><br><br>
-      <p class="text-left" >
-        What I learned from these user tests was how to implement changes I wasn't expecting such as
-        less sign up pushes or the shopping cart highlighted in multiple places. The results of these
-        user tests helped reduce pain points and engage users more in the shade
-        selection process.
-      </p>
-    </div>
-  </div><br> <br><br><br><br><br>
+</div><br><br>
 
+<div class="text-left" style="background-color:#fafafa; padding-top:20px;padding-bottom:20px;">
+    <div class="row" style="width:50%;margin:auto">
+        <div class="col-lg-12" style="padding-left:10%;">
+            <div class="col-sm-4";>
+                <p style="font-weight:bold;">Roles</p>
+                <p style="line-height:1.0;">UX Design</p>
+                <p style="line-height:1.0;">Visual Design</p>
+                <p style="line-height:1.0;">Branding</p>
+            </div>
+            <div class="col-sm-4">
+                <p style="font-weight:bold;">Deliverables</p>
+                <p style="line-height:1.0;">User Reserach</p>
+                <p style="line-height:1.0;">User Personas</p>
+                <p style="line-height:1.0;">Comp.Analysis</p>
+                <p style="line-height:1.0;">User Flows</p>
+                <p style="line-height:1.0;">Style Guide</p>
+                <p style="line-height:1.0;">Wireframes</p>
+                <p style="line-height:1.0;">User Testing</p>
+                <p style="line-height:1.0;">Prototypes</p>
 
-  <div class="text-center">
-    <hr style="margin-top:0px">
-    <h4 class="minortitles heading text-left" >PROTOTYPE</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="text-left">
-        After continous revisions, I designed the final prototype below which was given to users to interact with.
-        Overall, users enjoyed their experience at the Playground and were able to browse lipsticks and checkout
-        easily. The Playground helps solve a real life problem for many women of different skintones, including myself,
-        who want to feel confident and wear shades that work for them. There is definitly a shift in the beauty industry
-        as more products come out catered to diverse women. To further develop this product, I will continue refining
-        the design and create a smoother user experience. You can view my full visual prototype by clicking the button below:
-      </p><br>
+            </div>
+            <div class="col-sm-4";>
+                <p style="font-weight:bold;">Tools</p>
+                <p style="line-height:1.0;">Sketch</p>
+                <p style="line-height:1.0;">Abobe CS</p>
+                <p style="line-height:1.0;">Balsamiq</p>
+                <p style="line-height:1.0;">UsabilityHub</p>
+                <p style="line-height:1.0;">InVision</p>
 
-      <a href="https://invis.io/JBEJEMG5Z" class="btn2" target="_blank">VIEW FINAL DESIGN</a>
-    </div><br><br><br>
-
-    <div class="panel img-responsive">
-      <img class="image" src="Images/Home/PGmockup.png" alt="image">
-    </div>
-
-      </div>
-      </div>
-    </div><br>
-  </div><br><br><br>
-
-  <footer class="page-footer indigo center-on-small-only pt-0">
-
-      <!--Footer Links-->
-      <div class="container">
-
-          <!--First row-->
-          <div class="row">
-
-              <!--First column-->
-              <div class="col-md-12 text-center">
-
-                <div class="footer-socials mb-5 flex-center">
-                    <p class="text-center" style="color:#9B96A7;font-family:Oxygen;">Thanks for visiting <img class="image" src="Images/Home/happiness.png" style="width:18px;"></img></p>
-                    <a href="mailto:nvirdi3@gmail.com" target="_blank" class="icons-sm fb-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-envelope fa-lg white-text mr-md-4"> </i></a>
-                    <a href="https://www.linkedin.com/in/navnitvirdi/" target="_blank" class="icons-sm li-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i></a>
-                </div>
-              </div>
-              <!--/First column-->
-          </div>
-          <!--/First row-->
-      </div>
-      <!--/Footer Links-->
-
-      <!--Copyright-->
-      <br><br><br><br>
-        <div class="footer-copyright">
-            <div class="container-fluid text-right" style="margin-top:50px;font-family:Avenir;font-size:12px;color:#9B96A7;">
-                <span style="color:rgba(255,105,225,0.67);">  © </span> 2017 www.nvirdi.com
             </div>
         </div>
-      <!--/Copyright-->
+    </div>
+</div>
 
-  </footer>
+<br><br><br>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111633989-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<div class="text-left">
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h1>CHALLENGE</h1>
+            <p>As the beauty community continues to grow with new brands, trends and products,
+              makeup users will agree many don’t cater to all skintones. Women of deeper skintones
+              find it frustrating to shop for makeup when they can’t find a shade that matches their
+              unique skintone.</p>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+              <h1>SOLUTION</h1>
+            <p>The Playground offers more diverse shades with skintone details included.
+               This helps all makeup users easily find lipstick shades that compliment their skin,
+               while creating a more inclusive and empowering beauty community. </p>
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="text-left" style="background-color:#fafafa; padding-top:20px;padding-bottom:20px;">
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h1>DISCOVERY</h1>
+            <p>As a former makeup artist and lover of all things beauty, finding products that
+              perfectly match my skin has always been a struggle. Until recently, many brands did not
+              include products that catered to all skintones, creating a social divide between brands and users.
+              I surveyed over 50 potential users to understand their makeup shopping frustrations,
+              <strong style="color:#4C20DE;">75% stated products don’t match their skintone. 80% choose lipsticks as their favorite products to shop,
+              preferring formula over brand and price.</strong>
 
-  gtag('config', 'UA-111633989-1');
-</script>
+              <br><br>
 
-</body>
-</html>
+              Taking this research, I also analyzed popular lipstick brands such as Bite Beauty and Giella,
+              each offering custom lipstick shades. <strong style="color:#4C20DE;"> 100% of users agreed each platform did not offer enough
+              shades to choose from or they did not know how to find the right shade.</strong></p>
+        </div>
+    </div>
+</div>
+
+<br><br>
+<div class="text-left" >
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h3>Personas</h3>
+            <p>Nicole is a makeup enthusiast with a go getter lifestyle. With her odd shift hours,
+              she doesn’t always have time to shop in store before events and wants more go to products
+              she can purchase regularly.  Her biggest frustration is trying new brands/products and being
+              disappointed with the color pay off. She relies heavily on reviews and has a hard time finding
+              quality reviews from people that look similar to her. As a user, Nicole wants unique lipstick
+              shades that have high quality pigment and compliment her skin. </p>
+        </div>
+    </div>
+    <br><br>
+    <div class="row" style="width:50%;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-responsive" src="Images/playground/userPersona.png" alt="Image">
+        </div>
+    </div>
+</div>
+<br><br><br>
+<div class="text-left" >
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h3>User Flows</h3>
+            <p>Users like Nicole share a common goal: quickly browse shades that actually match their skin.
+               I created a three step user flow based on common lipstick qualities: Select Shade, Select Finish,
+               and Select Package. This helps the user focus on the custom lipstick process without feeling
+               overwhelmed</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="text-center row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-responsive" src="Images/playground/userFlow.png" alt="Image">
+        </div>
+    </div>
+</div>
+<br><br><br>
+
+<div class="text-left" style="background-color:#fafafa; padding-top:20px;padding-bottom:20px;">
+        <div class="row" style="width:60%;margin:auto">
+            <div class="col-lg-12">
+                <h1>IDEATION</h1>
+                <p>When creating the Playground identity, it was important to incorporate lipstick
+                  formula and the shopping habits of users. I created wireframes that lead users through
+                  a customization process to help them find the best shade. When brainstorming, I decided
+                  to use my own liptstick products to help inspire potential logos. The term “swatch” and
+                  “play” stood out as they conveyed a fun and common way to explore makeup and helped guide
+                   my design process. </p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-responsive" style="width:90%;display:block;margin-left:5%;" src="Images/playground/ideation0.png" alt="Image">
+        </div>
+    </div>
+</div>
+<br><br><br><br>
+<div class="text-left" >
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h3>User Testing</h3>
+            <p>I created user tests to ensure visual elements and flows make sense to the user.
+              With a focus on customization, 73% of users voted for Option B, using images to
+              choose their lipstick finish as oppose to buttons. Having a visual idea of what
+              the lipstick finish will look like helps the user create a more personalized lipstick</p>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="row" style="width:60%; height:auto;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-resposive" style="width:80%;display:block;margin-left:10%;" src="Images/playground/userTest1.png"  alt="Image">
+        </div>
+    </div>
+    </div>
+    <br><br><br><br>
+    <div class="text-left" style="background-color:#fafafa; padding-top:20px;padding-bottom:20px;">
+        <div class="row" style="width:60%;margin:auto">
+            <div class="col-lg-12">
+                <h1>CONCLUSION</h1>
+                <p>Using InVision, I  built the Playground prototype  which can be viewed below.
+                  Overall users enjoyed their experience, yet I would like to continue revising the
+                  visual design for an optimal makeup experience. The Playground helps solve a real
+                  life problem for women of different skintones, including myself who want to feel
+                  confident with their makeup decisions. My goal was to show makeup as more attainable
+                  and inclusive which I hope to see with future products.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <a href="https://invis.io/JBEJEMG5Z" class="btn2" target="_blank">VIEW PROTOTYPE</a>
+        </div>
+    </div>
+</div>
+<br>
+<div class="row" style="width:60%;margin:auto">
+    <div class="col-lg-12">
+      <a href= "http://www.nvirdi.com/chefo" style="color:#4C20DE;font-size:20px;font-weight:bold;"><  </a>  <a href="http://www.nvirdi.com/mavinn" style="color:#000000;font-weight:600;font-family:'Source Sans Pro'; font-size:20px;" > NEXT CASE STUDY <strong style="font-size:22px;color:#4C20DE;">></strong></a>
+    </div>
+</div>
+<br><br><br>
+
+
 
