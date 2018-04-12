@@ -1,519 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Mavinn Case Study</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/5433a87baa.js"></script>
+    <title>Mavinn Case Study</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/5433a87baa.js"></script>
 
-<!--CSS -->
-  <link rel="stylesheet" href="styles.css">
+    <!--CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
     }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 </script>
 <body>
 
-  <nav class="navbar navbar-inverse" style="z-index: 99;background-color:#FCFCFC;border:none;margin-bottom:auto">
+  <nav class="navbar navbar-inverse" style="background-color:#FFFFFF;border:none;margin-bottom:auto">
     <div class="container-fluid">
       <div class="navbar-header" >
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:#9B96A7">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:#D4D6DA; border:none;">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand headleft" href="http://www.nvirdi.com" style="color:#9B96A7;font-family:Source Sans Pro;font-size:14px;font-weight:400;" href="#">NAVNIT VIRDI  <span style="color:rgba(255,105,225,0.67);font-size:16px;">| </span> UX DESIGNER</a></a>
+        <a class="navbar-brand headleft" href="http://www.nvirdi.com" style="color:#4C20DE;font-family:Source Sans Pro;font-size:20px;font-weight:700;" href="#">NV |  <span style="color:#000000;font-weight:300;font-size:20px;">UX Designer</span></a></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#work" style="color:rgba(255,105,225,0.67);font-weight:400;font-size:14px;font-family:Source Sans Pro;">work</a></li>
-          <li><a href="http://www.nvirdi.com/about" style="color:#9B96A7;font-weight:400;font-size:14px;font-family:Source Sans Pro;">about</a></li>
-          <li><a href="Images/Home/NVirdi 2.pdf" target="_blank" style="color:#9B96A7;font-weight:400;font-size:14px;font-family:Source Sans Pro;">resume</a></li>
-          <li><a href="mailto:nvirdi3@gmail.com" target="_blank" class="icons-sm fb-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-envelope fa-lg white-text mr-md-4"> </i></a>
-          <li><a href="https://www.linkedin.com/in/navnitvirdi/" target="_blank" class="icons-sm li-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i></a>
+          <li><a href="#work" style="color:#4C20DE;font-weight:700;font-size:16px;text-decoration:underline;font-family:Source Sans Pro;">WORK</a></li>
+          <li><a href="http://www.nvirdi.com/about" style="color:#000000;font-weight:700;font-size:16px;font-family:Source Sans Pro;">ABOUT</a></li>
+          <li><a href="mailto:nvirdi3@gmail.com" target="_blank" class="icons-sm fb-ic" style='color:#D4D6DA;'><i class="fa fa-envelope fa-lg white-text mr-md-4"> </i></a>
+          <li><a href="https://www.linkedin.com/in/navnitvirdi/" target="_blank" class="icons-sm li-ic" style='color:#D4D6DA;'><i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i></a>
         </ul>
       </div>
     </div>
   </nav>
+  <br><br><br><br><br>
 
-  <div class="panel img-responsive" style="margin-top:50px">
-    <img class="image" src="Images/Mavinn/mavinnheader.png" alt="image">
-  </div>
 
-  <div class="container text-center">
-    <h1>MAVINN</h1>
-    <p style="text-align:center; cursor:default; color:#9B96A7;font-family:Oxygen; margin-top:0px;">Discovery | Ideation | Implementation</p>
+<div class="container" style="width:50%;">
+  <h1>MAVINN</h1>
+    <a href="https://projects.invisionapp.com/share/XAE7MKYJ2#/screens" class="btn2" target="_blank">VIEW PROTOTYPE</a>
+    </p>
     <div class="row">
-      <div class="col-lg-12 text-center"><br>
-        <p class="intro">
-            Mavinn is a mobile app where you can find nearby hotels catered to your travel needs.
-            Using unique filters, you can search hotels best suited for your occasion.
-        </p>
-        <br>
-        <a href="https://invis.io/XAE7MKYJ2" class="btn2" target="_blank">VIEW PROTOTYPE</a>
-      </div>
+        <div class="col-lg-12">
+            <p class="intro">
+              Mavinn lets you find nearby hotels catered to your travel needs.
+              Using unique filters, search and book hotels best suited for your special occasion.
+            </p>
+        </div>
     </div>
-  </div><br><br>
-
-  <div class="text-center" style="background-image:url(Images/Mavinn/headerimage.png);background-size:cover;">
-    <br><br><br><br><br>
-    <div class="row" style="width:90%;margin:auto;">
-      <div class="col-sm-1" style="width:11%"></div>
-      <div class="col-md-4" class="prob1">
-        <div class="padme" style="width:auto;min-width:200px;box-shadow:0px 1px 1px 1px #C2C0C8;background-color:white;">
-          <h4>PROBLEM</h4>
-          <p class="problem">
-            As last minute travel continues to be a common hobby, current hotel apps don't always
-            hit the mark when finding a unique hotel that the user enjoys.
-          </p>
+    <br><br>
+    <div class="row" style="width:100%; height:auto; margin:auto;">
+            <img class="img-responsive" src="Images/Home/mavinnMockup.png"  alt="Image">
         </div>
-      </div>
-      <div class="col-sm-2" style="width:11%"></div>
-      <div class="col-md-4" class="prob2">
-        <div class="padme" style="width:auto;min-width:200px;box-shadow:0px 1px 1px 1px #C2C0C8;background-color:white;">
-          <h4>SOLUTION</h4>
-          <p class="problem">
-            With Mavinn, you can filter hotels based on your occasion making the
-            staycation process stress free. Reserve unique hotels in a fast and easy manner.
-
-          </p>
-        </div>
-      </div>
-      <div class="col-sm-1" style="width:8%"></div>
     </div>
-    <br><br><br><br><br>
-  </div><br><br>  <br><br><br><br><br>
+</div><br><br>
 
-  <div class="text-left">
-    <hr style="margin-top:0px">
-    <h4 class="majortitles heading">DISCOVERY</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p>
-        To get to know the user, I surveyed over 50 respondants on how they currently book hotels and why.
-        Below are the main survey findings that lead me to developing Mavinn:
-    </p><br><br>
-    </div>
-    <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
-      <div class="row">
-        <div class="col-sm-2">
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Mavinn/Research/briefcase.svg" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">80% Reserve hotels for vacations or work</span>
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Mavinn/Research/favorite.svg" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">75% Preferred hotel experience over location</span>
-        </div>
-        <div class="col-sm-2">
-        </div>
-      </div>
-      <div class="row" >
-        <div class="col-sm-2">
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Mavinn/Research/clock.svg" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">90% Reviewed hotel ratings before booking</span>
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Mavinn/Research/bed.svg" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">60% Found current hotel apps complicated</span>
-        </div>
-        <div class="col-sm-2">
-        </div>
-      </div>
-      <div class="row" >
-        <div class="col-sm-2">
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Mavinn/Research/question.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">70% Reserve hotels often or last minute</span>
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Mavinn/Research/champagne.svg" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">66% reserve hotels for special occasions</span>
-        </div>
-        <div class="col-sm-2">
-        </div>
-      </div>
-    </div>
-
-
-  </div><br><br><br>
-
-  <div class="text-left">
-    <h4 class="minortitles heading" >PERSONAS</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="masterp">
-        Based on these survey results, users were frustrated with finding specific or special hotel types.
-        To further understand this issue, I interviewed three potential users on their current hotel booking process:
-      </p><br><br>
-    </div>
-  </div>
-
-<div style="margin:auto;background-color:#FCFCFC;padding:20px 20px 20px 20px">
-  <div class="container text-center">
-    <div class="row" style="width:70%; margin:auto">
-      <div class="col-sm-4">
-        <h4 style="color:rgba(255,105,225,0.67); font-size:20px;font-weight:bold;">PLANNER</h4>
-        <div style="padding:15px; box-shadow: 0px 1px 1px 1px #C2C0C8;">
-        <img src="Images/Mavinn/userimage1.png" style="width:150px;height:150px;border-radius:50%;margin-bottom:10px" class=".img-rounded" alt="Image"><br>
-        <p style="color:#391D6A">Chandni Kaur <br>30 / Seattle / Physician </br></p>
-        <br>
-          <p class="motives">Motivations</p>
-          <li class="p1"> Travels often for work</li>
-          <li class="p1"> Wants baby friendly hotels</li>
-          <li class="p1">Enjoys travel to nearby cities</li>
-
-          <br>
-
-          <p class="frust">Frustrations</p>
-          <li class="p1"> Can't find family hotels</li>
-          <li class="p1"> Can't find relevant reviews</li>
-
-        </div>
-      </div>
-
-      <div class="col-sm-4">
-        <h4 style="color:rgba(255,105,225,0.67); font-size:20px;font-weight:bold;">PROFESSIONAL</h4>
-        <div style="padding:15px; box-shadow: 0px 1px 1px 1px #C2C0C8;">
-        <img src="Images/Mavinn/userimage2.png" style="width:150px;height:150px;border-radius:50%;margin-bottom:10px" class=".img-rounded" alt="Image"><br>
-        <p style="color:#391D6A">Aiden Mohamani <br> 36 / LA / Photographer</br></p>
-        <br>
-          <p class="motives">Motivations</p>
-          <li class="p1">Travels often for work</li>
-          <li class="p1">Enjoys boutique hotels</li>
-          <li class="p1">Uses hotels for photoshoots</li>
-
-
-          <br>
-          <p class="frust">Frustrations</p>
-          <li class="p1">Can't find photogenic hotels</li>
-          <li class="p1">Wants to save hotels he likes</li>
-
-
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <h4 style="color:rgba(255,105,225,0.67); font-size:20px;font-weight:bold;">CASUAL</h4>
-        <div style="padding:15px; box-shadow: 0px 1px 1px 1px #C2C0C8;">
-        <img src="Images/Mavinn/userimage3.png" style="width:150px;height:150px;border-radius:50%;margin-bottom:10px" class=".img-rounded" alt="Image"><br>
-        <p style="color:#391D6A">Mina Sigani <br> 28 / Detriot / Manager </br></p>
-        <br>
-          <p class="motives">Motivations</p>
-            <li class="p1">Prefers modern hotels</li>
-          <li class="p1">Books hotels last minute</li>
-          <li class="p1">Travels with her husband</li>
-
-          <br>
-
-          <p class="frust">Frustrations</p>
-          <li class="p1">Can't find specific hotels</li>
-          <li class="p1">Wants to reserve rooms faster</li>
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-  </div><br><br><br>
-
-
-
-
-  <div class="text-center">
-    <h4 class="minortitles heading text-left" >COMPETITIVE ANALYSIS</h4>
-    <div class="frustrationlist row" style="width:70%;margin:auto">
-      <p class="masterp text-left">
-        After getting to know the users, a competitive analysis was completed to learn
-        more about the current solutions already out there.  Below are three brands that offer
-        some form of lipstick customization and solve the user’s frustrations. Respondants were
-        asked to review these competitors and let me know their thoughts on ease of use and color matching.
-      </p>
-      <br><br><br>
-    </div>
-    <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
-    <div class="frustrationlist row" style="width:70%;margin:auto">
-      <div class="col-sm-4" style="min-width:200px;">
-        <div style="background-color:#FFFFFF;padding:10px;box-shadow: 0px 1px 1px 1px #C2C0C8;">
-          <h4 class="text-center"><img src="Images/Mavinn/hotelstonight.png" style="width:auto;max-height:50px" alt="Image"></h4>
-          <div style="min-height:120px">
-          <img src="Images/Home/greencheck.png" style="width:20px;height:20px;border-radius:50%;margin-bottom:10px" alt="Image">
-          <p class="motives">Users Liked </p>
-              <li class="p1">Simple, sleek, and flows well</li>
-              <li class="p1">Catered to city enthusiasts</li>
-          </div>
-          <div style="min-height:100px">
-          <img src="Images/Home/redx.png" style="width:20px;height:20px;border-radius:50%;" alt="Image">
-            <p class="frust" >Users Disliked </p>
-              <li class="p1">Not helpful for certain cities</li>
-              <li class="p1">Map view is overwhelming at first</li>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4" style="min-width:200px;">
-        <div style="background-color:#FFFFFF;padding:10px;box-shadow: 0px 1px 1px 1px #C2C0C8;">
-          <h4 class="text-center"><img src="Images/Mavinn/hotelscom.png" style="width:auto;max-height:50px" alt="Image"></h4>
-          <div style="min-height:120px">
-            <img src="Images/Home/greencheck.png" style="width:20px;height:20px;border-radius:50%;margin-bottom:10px" alt="Image">
-            <p class="motives">Users Liked </p>
-              <li class="p1">Easy to navigate through</li>
-              <li class="p1">Can save hotels for later</li>
-
-          </div>
-          <div style="min-height:100px">
-            <img src="Images/Home/redx.png" style="width:20px;height:20px;border-radius:50%;" alt="Image">
-            <p class="frust">Users Disliked </p>
-              <li class="p1">Toggle between map and list</li>
-              <li class="p1">Lists hotels by location only</li>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4" style="min-width:200px">
-        <div style="background-color:#FFFFFF;padding:10px;box-shadow: 0px 1px 1px 1px #C2C0C8;">
-        <h4 class="text-center"><img src="Images/Mavinn/bookingcom.png" style="width:auto;max-height:50px" alt="Image"></h4>
-          <div style="min-height:120px">
-            <img src="Images/Home/greencheck.png" style="width:20px;height:20px;border-radius:50%;margin-bottom:10px" alt="Image">
-            <p class="motives">Users Liked </p>
-              <li class="p1">Detailed reviews</li>
-              <li class="p1">Can search any hotel</li>
-
-          </div>
-          <div style="min-height:100px">
-            <img src="Images/Home/redx.png" style="width:20px;height:20px;border-radius:50%;" alt="Image">
-            <p class="frust">Users Disliked </p>
-              <li class="p1">Room selection is confusing</li>
-              <li class="p1">Toggle between map and list</li>
+<div class="text-left" style="background-color:#fafafa; padding-top:20px;padding-bottom:20px;">
+    <div class="row" style="width:50%;margin:auto">
+        <div class="col-lg-12" style="padding-left:10%;">
+            <div class="col-sm-4";>
+                <p style="font-weight:bold;">Roles</p>
+                <p style="line-height:1.0;">UX Design</p>
+                <p style="line-height:1.0;">Visual Design</p>
+                <p style="line-height:1.0;">Branding</p>
             </div>
-          </div>
+            <div class="col-sm-4">
+                <p style="font-weight:bold;">Deliverables</p>
+                <p style="line-height:1.0;">User Reserach</p>
+                <p style="line-height:1.0;">User Personas</p>
+                <p style="line-height:1.0;">Comp.Analysis</p>
+                <p style="line-height:1.0;">User Flows</p>
+                <p style="line-height:1.0;">Style Guide</p>
+                <p style="line-height:1.0;">Wireframes</p>
+                <p style="line-height:1.0;">User Testing</p>
+                <p style="line-height:1.0;">Prototypes</p>
+
+            </div>
+            <div class="col-sm-4";>
+                <p style="font-weight:bold;">Tools</p>
+                <p style="line-height:1.0;">Sketch</p>
+                <p style="line-height:1.0;">Abobe CS</p>
+                <p style="line-height:1.0;">Balsamiq</p>
+                <p style="line-height:1.0;">UsabilityHub</p>
+                <p style="line-height:1.0;">Material Guidelines</p>
+                <p style="line-height:1.0;">InVision</p>
+
+            </div>
         </div>
-      </div>
     </div>
-  <br><br><br>
+</div>
 
+<br><br><br>
 
-    <div class="row" style="width:90%;margin:auto">
-      <p><a href="Images/Mavinn/Mavinn- Competitive Analysis.pdf" target="_blank" style="font-family:Oxygen; font-size:14px; text-decoration:underline;color:#9B96A7;font-weight:400;">View Full SWOT Analysis</a></p>
+<div class="text-left">
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h1>CHALLENGE</h1>
+            <p>As last minute travel continues to be a common hobby, the need for unique
+               location apps increases which can be seen with platforms like HotelTonight or AirBnB.
+               Many travel lovers will agree that finding local hotels can be a burdensome and complicated
+               task. </p>
+        </div>
     </div>
-  </div>
-
-
-  </div><br><br><br><br>
-
-  <div class="text-center">
-    <h4 class="majortitles heading text-left" >IDEATION</h4>
-    <div class="row" style="width:70%;margin:auto">
-        <p class="text-left">
-        Based on research and competitive analysis, users were frustrated by complicated map views and reservation processes.
-        Focusing on this unique need, user flows were created to ensure less confusion when searching hotels on a map and reserving them.
-        </p>
+    <br><br><br>
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+              <h1>SOLUTION</h1>
+            <p>Mavinn helps users filter hotels based on their occasion,
+              making staycations a stress free process. Users can find unique
+              hoteling spaces such as boutique hotels or houses in a fast and easy manner.</p>
+        </div>
     </div>
-    <div class="row" style="width:70%;margin:auto;margin-top:50px">
-      <h4 class="text-center" style="width:90%;margin:auto;color:rgba(255,105,225,0.67); font-size:20px;">Map & Details Flow</h4>
-      <img src="Images/Mavinn/userflownew1.png" style="margin-top:30px;margin-bottom:30px;width:100%;" alt="Image">
-    </div>
-    <div class="row" style="width:79%;margin:auto; margin-top:40px">
-      <h4 class="text-center" style="width:80%;margin:auto;color:rgba(255,105,225,0.67); font-size:20px;">Reserve & Confirm Flow</h4>
-      <img src="Images/Mavinn/userflownew2.png" style="margin-top:30px;margin-bottom:30px;width:100%;" alt="Image">
-    </div>
-    <div class="row" style="width:80%;margin:auto">
-      <p><a href="Images/Mavinn/MAVINN User Flow.pdf" target="_blank" style="font-family:Oxygen; font-size:14px; text-decoration:underline;color:#9B96A7;font-weight:400;">View All User Flows</a></p>
-    </div>
-  </div><br><br><br>
+</div>
+<br><br>
+<div class="text-left" style="background-color:#fafafa; padding-top:20px;padding-bottom:20px;">
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h1>DISCOVERY</h1>
+            <p>To understand this unique need and user, I conducted user surveys and interviews
+              to discover <strong style="color:#4C20DE;">70% prefer hotel experience over location
+              and 66% reserve hotels last minute for special occasions or getaways.</strong>
 
-  <div class="text-center">
-    <hr style="margin-top:0px">
-    <h4 class="minortitles heading text-left">BRANDING</h4>
-    <div class="row" style="width:70%;margin:auto">
-        <p class="text-left">
-          When developing the brand, users wanted an organized, fast and friendly application which brought me to the name Mavinn,
-          a combination of “Maven” and “Inn” or in other words an expert in hotels. The name is simple, playful, and reflects reliability
-          which is what Mavinn is all about. When sketching logo concepts, I started with images of beds to help reflect comfort.
-          Although hotel beds show comfort, I found this imagery took away from the exciting part of finding a unique hotel, which is what users wanted.
-          This lead to the final logo concept of colorful buildings, a reflection of unique hotels.
-      </p>
+              <br><br>
+
+              Taking this research, I also reviewed popular booking
+              apps such as HotelTonight, Hotels.com, and Booking.com asking users what they liked or disliked
+              about each app experience. Many users agreed map views and list views were difficult to toggle between.
+              With this feedback, I created user personas to help guide my design process.
+        </div>
+    </div>
+</div>
+
+<br><br>
+<div class="text-left" >
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h3>Personas</h3>
+            <p>Aiden and his wife travel to different cities at least 2-3 times a month for
+              their growing wedding photography and videography business. Hotel living is their
+              speciality and they enjoy exploring new rooms experiences.
+              They usually use HotelTonight to book last minute hotels for their
+              team or client or will book whatever is nearby for their photography needs.
+              As a user, Aiden is frustrated by current apps not showing unique hotels and wants
+              view and reserve hotels on a map for efficiently. </p>
+        </div>
     </div>
     <br><br>
-    <div class="row" style="width:73%;margin:auto">
-      <div class="col-sm-6">
-        <img src="Images/Mavinn/branding2.png" style="width:100%;box-shadow: 0px 1px 1px 1px #C2C0C8;" alt="Image">
-      </div>
-      <div class="col-sm-6">
-        <img src="Images/Mavinn/logooption1.png" style="width100%;box-shadow: 0px 1px 1px 1px #C2C0C8;padding-top:25px;" alt="Image">
-      </div>
+    <div class="row" style="width:50%;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-responsive" src="Images/mavinn/userPersona.png" alt="Image">
+        </div>
+    </div>
+</div>
+<br><br><br>
+<div class="text-left" >
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h3>User Flows</h3>
+            <p>Based on research and competitive analysis, users were frustrated by
+              complicated map views and reservation processes. Focusing on this unique need,
+              user flows were created to ensure less confusion when searching hotels on a map and
+              reserving them.</p>
+        </div>
+    </div>
+    <br>
+    <div class="text-center row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-responsive" src="Images/mavinn/userFlow.png" alt="Image">
+        </div>
+    </div>
+</div>
+<br><br><br>
+
+<div class="text-left" style="background-color:#fafafa; padding-top:20px;padding-bottom:20px;">
+        <div class="row" style="width:60%;margin:auto">
+            <div class="col-lg-12">
+                <h1>IDEATION</h1>
+                <p>When developing the brand, users wanted an organized,
+                  fast and friendly application which brought me to the name Mavinn,
+                  a combination of “Maven” and “Inn” or in other words an expert in hotels.
+                  Simple typeface and playful colors were chosen to reflect reliability and ease.
+                  I also created wireframes to visualize the user interaction and create a simple booking experience.</p>
+            </div>
+        </div>
     </div>
     <br><br>
-    <div class="row" style="width:73%;margin:auto">
-      <div class="col-sm-12">
-        <img src="Images/Mavinn/brandimage5.png" style="width:100%;" alt="Image">
-      </div>
-      <div class="col-sm-12">
-        <img src="Images/Mavinn/mavinnpalette.png" style="width:100%;" alt="Image">
-      </div>
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-responsive" style="width:80%;display:block;margin-left:10%;"src="Images/mavinn/ideation0.png" alt="Image">
+        </div>
     </div>
-  </div><br><br><br><br>
-  <br><br><br>
-
-
-  <div class="text-center">
-    <hr style="margin-top:0px">
-    <h4 class="miniortitles heading text-left" >WIREFRAMES</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="text-left">
-        I created wireframes for each user flow or screen.
-        I spoke with users to understand what they expect the application to do and how
-        they prefered to interact with it. Taking this user feedback, I applied these changes
-        throughout the wireframe process.
-      </p><br><br>
+</div>
+<br><br><br>
+<div class="text-left" >
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h3>User Testing</h3>
+            <p>I tested my design through both navigation and click tests.
+              Users were asked to reserve Hotel Zetta and provide their feedback in
+              terms of ease and experience. 58% of users found the map screen overwhelming
+              at first. This led to adding unique map icons and an onboarding screen for guidance.
+              Users also clicked on the entire hotel card vs the “view” button, which led to refining the
+              hotel card to be more intuitive. </p>
+        </div>
     </div>
-    <div class="row" style="width:78%;margin:auto">
-      <div class="col-sm-3">
-        <img src="Images/Mavinn/Wireframe1.png" style="width:60%;box-shadow: 0px 1px 1px 1px #C2C0C8" alt="Image">
-      </div>
-      <div class="col-sm-3">
-        <img src="Images/Mavinn/Wireframe2.png" style="width:60%;box-shadow: 0px 1px 1px 1px #C2C0C8" alt="Image">
-      </div>
-      <div class="col-sm-3">
-        <img src="Images/Mavinn/Wireframe3.png" style="width:60%;box-shadow: 0px 1px 1px 1px #C2C0C8" alt="Image">
-      </div>
-      <div class="col-sm-3">
-        <img src="Images/Mavinn/Wireframe4.png" style="width:60%;box-shadow: 0px 1px 1px 1px #C2C0C8" alt="Image">
-      </div>
-    </div><br><br>
-
-    <div class="row" style="width:100%;margin:auto">
-      <img src="Images/Mavinn/Wireframes5.png" style="width:70%;" alt="Image">
+    <br><br><br>
+    <div class="row" style="width:60%; height:auto;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-resposive" style="width:70%;display:block;margin-left:15%;" src="Images/mavinn/userTest1.png"  alt="Image">
+        </div>
     </div>
-    <br><br>
-    <div class="row" style="width:70%;margin:auto">
-      <img src="Images/Mavinn/Wireframes6.png" style="width:70%;" alt="Image">
     </div>
     <br><br><br><br>
-    <div class="row" style="width:80%;margin:auto">
-      <p><a href="Images/Mavinn/Mavinn Wireframes.pdf" target="_blank" style="font-family:Oxygen; font-size:14px; text-decoration:underline;color:#9B96A7;font-weight:400;">View All Wireframes</a></p>
-    </div>
-  </div><br><br><br><br><br>
-
-  <div class="text-center">
-    <h4 class="majortitles heading text-left" >IMPLEMENTATION</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="text-left">
-        To further refine the design,  I asked users to reserve Hotel Zetta and let me
-        know their likes and dislikes in terms of ease and experience. Below are key findings
-        that helped shape the final app design:
-      </p>
-  <div style="margin:auto;background-color:#FCFCFC;padding:20px 20px 20px 20px">
-    <div class="row" style="width:70%;margin:auto"><br><br>
-    <img src="Images/Mavinn/usertest1.png" style="width:100%;" alt="Image">
-  </div>
-<br><br><br>
-    <p class="text-left">
-    60% of users found the map screen overwhelming at first glance, which led to
-    unique map icons for each filter. This helps the user browse hotels faster.
-    80% of users clicked on the hotel card vs the initial "view" button. Taking this feedback,
-    I made the entire hotel card clickable and removed the unneccesary button</p>
-  </div>
-  <br><br><br>
-</div>
-<div class="row" style="width:70%;margin:auto">
-<div style="margin:auto;background-color:#FCFCFC;padding:20px 20px 20px 20px">
-<div class="row" style="width:70%;margin:auto"><br><br>
-<img src="Images/Mavinn/usertest2.png" style="width:100%;" alt="Image">
-</div>
-<br><br><br>
-<p class="text-left">
-  Taking this feedback, I applied changes to the wireframes and final design.
-  These changes included an onboarding process to help guide new users, a map filter initially selected for guidance,
-  and changing the reservation screen to display information more clearly for easy readability and editing.
-  I learned quickly how to implement changes throughout the design process to ensure a user-friendly design. </p>
-</div>
-</div>
-</div><br> <br><br><br><br><br><br><br>
-
-
-  <div class="text-center">
-    <hr style="margin-top:0px">
-    <h4 class="minortitles heading text-left" >PROTOTYPE</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="text-left">
-      The Mavinn prototype was given to users to interact with who overall enjoyed the map simplicity.
-      Although there are many hotel apps already out there, Mavinn helps solve a unique problem for travelers.
-      I learned that understanding the user's problem in detail really helps define the design direction.
-      To further develop this product, I would continue user testing and complete an IOS version.
-      You can expereince the Mavinn app and view my design by clicking the button below:
-      </p><br>
-
-      <a href="https://invis.io/XAE7MKYJ2" class="btn2" target="_blank">VIEW FINAL DESIGN</a>
-    </div><br><br><br>
-
-    <div class="panel img-responsive">
-      <img class="image" src="Images/Mavinn/mavinnheader.png" alt="image">
-    </div>
-
-      </div>
-      </div>
-    </div><br>
-  </div><br><br><br>
-
-  <footer class="page-footer indigo center-on-small-only pt-0">
-
-      <!--Footer Links-->
-      <div class="container">
-
-          <!--First row-->
-          <div class="row">
-
-              <!--First column-->
-              <div class="col-md-12 text-center">
-
-                <div class="footer-socials mb-5 flex-center">
-                    <p class="text-center" style="color:#9B96A7;font-family:Oxygen;">Thanks for visiting <img class="image" src="Images/Home/happiness.png" style="width:18px;"></img></p>
-                    <a href="mailto:nvirdi3@gmail.com" target="_blank" class="icons-sm fb-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-envelope fa-lg white-text mr-md-4"> </i></a>
-                    <a href="https://www.linkedin.com/in/navnitvirdi/" target="_blank" class="icons-sm li-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i></a>
-                </div>
-              </div>
-              <!--/First column-->
-          </div>
-          <!--/First row-->
-      </div>
-      <!--/Footer Links-->
-
-      <!--Copyright-->
-      <br><br><br><br>
-        <div class="footer-copyright">
-            <div class="container-fluid text-right" style="margin-top:50px;font-family:Avenir;font-size:12px;color:#9B96A7;">
-                <span style="color:rgba(255,105,225,0.67);">  © </span> 2017 www.nvirdi.com
+    <div class="text-left" style="background-color:#fafafa; padding-top:20px;padding-bottom:20px;">
+        <div class="row" style="width:60%;margin:auto">
+            <div class="col-lg-12">
+                <h1>CONCLUSION</h1>
+                <p>Mavinn solves a unique user goal and gives new age travelers a more efficient way to
+                  book special hotels. Users can find local hotels that fit their situation or occasion as
+                  well as read and share relevent reviews. Through research and design, a welcoming interface
+                  was created based on user testing. I would like to refine the design more for all devices and
+                  continue user testing. View the prototype below to experience the Mavinn app. </p>
             </div>
         </div>
-      <!--/Copyright-->
-
-  </footer>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111633989-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-111633989-1');
-</script>
-
-</body>
-</html>
+    </div>
+    <br>
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <a href="https://projects.invisionapp.com/share/XAE7MKYJ2#/screens" class="btn2" target="_blank">VIEW PROTOTYPE</a>
+        </div>
+    </div>
+</div>
+<br>
+<div class="row" style="width:60%;margin:auto">
+    <div class="col-lg-12">
+      <a href= "http://www.nvirdi.com/playground" style="color:#4C20DE;font-size:20px;font-weight:bold;"><  </a>  <a href="http://www.nvirdi.com/blockbox" style="color:#000000;font-weight:600;font-family:'Source Sans Pro'; font-size:20px;" > NEXT CASE STUDY <strong style="font-size:22px;color:#4C20DE;">></strong></a>
+    </div>
+</div>
+<br><br><br>
