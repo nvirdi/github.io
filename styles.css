@@ -1,15 +1,23 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
-  margin-top: auto;
+  padding-left:6%;
+  padding-right:4%;
   border-radius: 0;
   overflow: auto;
   display:block;
-  position: fixed;
-  top: 0;
+  position:fixed;
+  float:top;
   font-family:"Source Sans Pro";
   width: 100%;
+  z-index:300;
+
 }
 
+
+.about {
+  margin-left: 17%;
+  text-align: left;
+}
 
 /* Add a gray background color and some padding to the footer */
 /*footer {
@@ -33,26 +41,21 @@
 .intro{
   max-width:700px;
   margin:auto;
-}
-
-.p1 {
-  color:rgba(0,0,0,0.80);
-  font-size:14px;
-  line-height: 1.5;
   font-family:"Source Sans Pro";
-  text-align:left;
-  margin-left:10px;
+  font-weight:400;
+  line-height:1.6;
+  font-size:20px;
 }
-
 
 p {
-  color:rgba(0,0,0,0.80);
-  font-size:18px;
+  color:#000000;
+  font-size:22px;
+  font-weight:300;
   line-height: 1.6;
   font-family:"Source Sans Pro";
 }
 .image {
-  max-width:100%;
+  max-width:50%;
   height:auto;
   position: relative;
   background-attachment:relative;
@@ -61,46 +64,29 @@ p {
 
 
 h1 {
-color:#9B96A7;
-font-family:"Oxygen";
+color:#000000;
+font-family:"Nunito Sans";
 font-size:30px;
 font-weight:bold;
 }
 
-h4 {
-  color:#9B96A7;
-  font-size:16px;
-  font-family:"Oxygen";
-}
 
-.problem{
-  margin:10px;
-  text-align:center;
-}
-
-.heading{
-  color:#9B96A7;
-  font-size:20px;
-  font-family:"Oxygen";
-}
-
-.majortitles {
-  width: 80%;
-  margin-left: 15%;
-  font-family:"Oxygen";
-  font-weight:bold;
+h2 {
+  color:#000000;
+  font-family:"Nunito Sans";
   font-size:25px;
-  color:#9B96A7;
-}
+  font-weight:bold;
+  margin-left: 18%;
+  }
 
-.minortitles {
-  width: 80%;
-  margin-left: 15%;
-  color:#9B96A7;
-  font-family:"Oxygen"
-  font-size:18px;
+h3 {
+  color:#000000;
+  font-family:"Nunito Sans";
+  font-size:30px;
+  font-weight:400;
+  }
 
-}
+
 
 /*.paneltext-center {
   color:#141414;
@@ -140,10 +126,10 @@ h4 {
 .btn2 {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  font-family: "Oxygen", sans-serif;
-  color: rgba(255,105,225,0.67);
+  font-family: "Source Sans Pro", sans-serif;
+  color: #4C20DE;
   border-radius: 50px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight:600;
   letter-spacing:1px;
   text-decoration: none;
@@ -156,10 +142,8 @@ h4 {
   padding-bottom:11px;
   margin-top:30px;
   margin-bottom:10px;
-  margin-left:auto;
-  margin-right:auto;
   border-radius: 3px;
-  border: solid rgba(255,105,225,0.67) 1px;
+  border: solid #4C20DE 1px;
   position:relative;
   display:table;
   transition: color .2s ease-in-out;
@@ -170,10 +154,10 @@ h4 {
 }
 
 .btn2:hover {
-  background: #9B96A7;
+  background: #4C20DE;
   text-decoration: none;
   color:#FFFFFF;
-  border-color:#9B96A7;
+  border-color:#4C20DE;
 }
 
 
@@ -183,68 +167,7 @@ h4 {
   font-family: "Avenir";
 }
 
-.frustrationlist {
-  font-family: "Oxygen";
-  font-size:16px;
-  min-height:95px;
 
-/*
-}li::before {content: "•"; color: rgba(255,105,225,0.67);
-  display: inline-block; width: 1em;
-  margin-left: -3em}*/
-
-}
-
-.motives {
-  font-family:"Oxygen";
-  color: #391D6A;
-  font-size:14px;
-  font-weight:bold;
-}
-
-
-.frust{
-  font-family:"Oxygen";
-  color: #391D6A;
-  font-size:14px;
-  font-weight:bold;
-  margin-top: 10px;
-}
-
-.prob1 {
-padding-top:10px;
-padding-bottom:10px;
-float:left;
-width:auto;
-padding-left:10px;
-padding-right:10px;
-box-shadow:0px 1px 1px 1px #C2C0C8;
-background-color:white;
-}
-
-.prob2 {
-padding-top:10px;
-padding-bottom:10px;
-padding-left:10px;
-float:right;
-width:auto;
-padding-right:10px;
-box-shadow:0px 1px 1px 1px #C2C0C8;
-background-color:white;
-}
-
-.options{
-  font-family: "Avenir";
-  font-size:16px;
-  color:#391D6A;
-
-}
-
-.research {
-  font-family:"Oxygen";
-  font-weight:lighter;
-  font-size:16px;
-}
 
 .flexbox {
   display: -webkit-flex;
@@ -275,3 +198,4 @@ background-color:white;
   padding-left:10px;
   padding-right:15px;
 }
+
