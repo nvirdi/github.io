@@ -1,543 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Blocbox Case Study</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://use.fontawesome.com/5433a87baa.js"></script>
+    <title>Blocbox Case Study</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/5433a87baa.js"></script>
 
-<!--CSS -->
-  <link rel="stylesheet" href="styles.css">
+    <!--CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <script>
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
     }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 </script>
 <body>
 
-  <nav class="navbar navbar-inverse" style="z-index: 99;background-color:#FCFCFC;border:none;margin-bottom:auto">
+  <nav class="navbar navbar-inverse" style="background-color:#FFFFFF;border:none;margin-bottom:auto">
     <div class="container-fluid">
       <div class="navbar-header" >
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:#9B96A7">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="background-color:#D4D6DA; border:none;">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand headleft" href="http://www.nvirdi.com" style="color:#9B96A7;font-family:Source Sans Pro;font-size:14px;font-weight:400;" href="#">NAVNIT VIRDI  <span style="color:rgba(255,105,225,0.67);font-size:16px;">| </span> UX DESIGNER</a></a>
+        <a class="navbar-brand headleft" href="http://www.nvirdi.com" style="color:#4C20DE;font-family:Source Sans Pro;font-size:20px;font-weight:700;" href="#">NV |  <span style="color:#000000;font-weight:300;font-size:20px;">UX Designer</span></a></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#work" style="color:rgba(255,105,225,0.67);font-weight:400;font-size:14px;font-family:Source Sans Pro;">work</a></li>
-          <li><a href="http://www.nvirdi.com/about" style="color:#9B96A7;font-weight:400;font-size:14px;font-family:Source Sans Pro;">about</a></li>
-          <li><a href="Images/Home/NVirdi 2.pdf" target="_blank" style="color:#9B96A7;font-weight:400;font-size:14px;font-family:Source Sans Pro;">resume</a></li>
-          <li><a href="mailto:nvirdi3@gmail.com" target="_blank" class="icons-sm fb-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-envelope fa-lg white-text mr-md-4"> </i></a>
-          <li><a href="https://www.linkedin.com/in/navnitvirdi/" target="_blank" class="icons-sm li-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i></a>
+          <li><a href="#work" style="color:#4C20DE;font-weight:700;font-size:16px;text-decoration:underline;font-family:Source Sans Pro;">WORK</a></li>
+          <li><a href="http://www.nvirdi.com/about" style="color:#000000;font-weight:700;font-size:16px;font-family:Source Sans Pro;">ABOUT</a></li>
+          <li><a href="mailto:nvirdi3@gmail.com" target="_blank" class="icons-sm fb-ic" style='color:#D4D6DA;'><i class="fa fa-envelope fa-lg white-text mr-md-4"> </i></a>
+          <li><a href="https://www.linkedin.com/in/navnitvirdi/" target="_blank" class="icons-sm li-ic" style='color:#D4D6DA;'><i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i></a>
         </ul>
       </div>
     </div>
   </nav>
-
-  <div class="panel img-responsive" style="margin-top:50px">
-    <img class="image" src="Images/Blocbox/bbmockup.png" alt="image">
-  </div>
-
-  <div class="container text-center">
-    <h1>BLOCBOX</h1>
-    <p style="text-align:center; cursor:default; color:#9B96A7;font-family:Oxygen; margin-top:0px;">Discovery | Ideation | Implementation</p>
-    <div class="row">
-      <div class="col-lg-12 text-center"><br>
-        <p class="intro">
-          Blocbox is a web application that lets you collect and store information in one space.
-          You can create simple documents, store inspiring images, and add links while collaborating with others.
-        </p>
-        <br>
-        <a href="https://invis.io/NZD7PK96T" class="btn2" target="_blank">VIEW PROTOTYPE</a>
-      </div>
-    </div>
-  </div><br><br>
-
-  <div class="text-center" style="background-image:url(Images/Blocbox/headerimage.png);background-size:cover;">
-    <br><br><br><br><br>
-    <div class="row" style="width:90%;margin:auto;">
-      <div class="col-sm-1" style="width:11%"></div>
-      <div class="col-md-4" class="prob1">
-        <div class="padme" style="width:auto;min-width:200px;box-shadow:0px 1px 1px 1px #C2C0C8;background-color:white;">
-          <h4>PROBLEM</h4>
-          <p class="problem">
-            When it comes to saving content there are many cloud based platforms to use,
-            however they can have confusing dashboards or lack certain sharing capabilities.
-          </p>
-        </div>
-      </div>
-      <div class="col-sm-2" style="width:11%"></div>
-      <div class="col-md-4" class="prob2">
-        <div class="padme" style="width:auto;min-width:200px;box-shadow:0px 1px 1px 1px #C2C0C8;background-color:white;">
-          <h4>SOLUTION</h4>
-          <p class="problem">
-            Blocbox lets users collect images, notes and links while colloborating with others.
-            Users can experience a more simple and intuitive way to organize their information.
-          </p>
-        </div>
-      </div>
-      <div class="col-sm-1" style="width:8%"></div>
-    </div>
-    <br><br><br><br><br>
-  </div><br><br>  <br><br><br><br><br>
-
-  <div class="text-left">
-    <hr style="margin-top:0px">
-    <h4 class="majortitles heading">DISCOVERY</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p>
-        After reviewing the Blocbox business and design requirements, I surveyed over
-        50 potential users to understand how they currently save and share content.
-        Below are the main findings from the survey results:
-    </p><br><br>
-    </div>
-    <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
-      <div class="row">
-        <div class="col-md-2" >
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Blocbox/Research/imagesearch.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">90% Browse information for work and news</span>
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Blocbox/Research/edit.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">90% Take notes for personal and business items</span>
-        </div>
-        <div class="col-sm-2" >
-        </div>
-      </div>
-      <div class="row" >
-        <div class="col-sm-2">
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Blocbox/Research/download.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">70% Download or bookmark information</span>
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Blocbox/Research/group.svg" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">80% Work in a team based environment</span>
-        </div>
-        <div class="col-sm-2" >
-        </div>
-      </div>
-      <div class="row" >
-        <div class="col-sm-2">
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Blocbox/Research/share.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">70% Found limited sharing with current apps</span>
-        </div>
-        <div class="col-md-4" style="padding-bottom:10px">
-          <span class="research text-left"><img src="Images/Blocbox/Research/twitter.png" style="float:left;width:30px;height:30px;display:inline;margin-right:10px" class="img-responsive" alt="Image">60% Use social media to sign up for accounts</span>
-        </div>
-        <div class="col-sm-2">
-        </div>
-      </div>
-    </div>
-
-  </div><br><br><br>
-
-  <div class="text-left">
-    <h4 class="minortitles heading" >PERSONAS</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="masterp">
-        Survey results showed most users came from a tech or design background
-        who want to organize their saved content and share with different people.
-        The survey results also indicated the importance of social sharing which was
-        implemented in the final dashboard and homepage designs. To further understand the user’s
-        frustrations, I interviewed three individuals below:
-      </p><br><br>
-    </div>
-  </div>
-
-<div style="margin:auto;background-color:#FCFCFC;padding:20px 20px 20px 20px">
-  <div class="container text-center">
-    <div class="row" style="width:70%; margin:auto">
-      <div class="col-sm-4">
-        <h4 style="color:rgba(255,105,225,0.67); font-size:20px;font-weight:bold;">EXPERT</h4>
-        <div style="padding:15px; box-shadow: 0px 1px 1px 1px #C2C0C8;">
-        <img src="Images/Blocbox/userimage1.png" style="width:150px;height:150px;border-radius:50%;margin-bottom:10px" class=".img-rounded" alt="Image"><br>
-        <p style="color:#391D6A">Madison Kirk <br>33 / New York / Designer </br></p>
-        <br>
-          <p class="motives">Motivations</p>
-          <li class="p1">Saves inspiring photos</li>
-          <li class="p1">Shares photos with friends</li>
-          <li class="p1">Edits her photos on her phone</li>
-
-          <br>
-
-          <p class="frust">Frustrations</p>
-          <li class="p1">Can't find her saved photos</li>
-          <li class="p1">Limited sharing capabilities</li>
-
-        </div>
-      </div>
-
-      <div class="col-sm-4">
-        <h4 style="color:rgba(255,105,225,0.67); font-size:20px;font-weight:bold;">CASUAL</h4>
-        <div style="padding:15px; box-shadow: 0px 1px 1px 1px #C2C0C8;">
-        <img src="Images/Blocbox/userimage3.png" style="width:150px;height:150px;border-radius:50%;margin-bottom:10px" class=".img-rounded" alt="Image"><br>
-        <p style="color:#391D6A">Sonia Taguchi <br> 27 / Seattle / Marketing</br></p>
-        <br>
-          <p class="motives">Motivations</p>
-          <li class="p1">Uses Pinterest for items</li>
-          <li class="p1">Screenshots inspiring quotes</li>
-          <li class="p1">Shares photos with friends</li>
-
-
-          <br>
-          <p class="frust">Frustrations</p>
-          <li class="p1">Can't find her saved photos</li>
-          <li class="p1">Wants to organize her items</li>
-
-
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <h4 style="color:rgba(255,105,225,0.67); font-size:20px;font-weight:bold;">PROFESSIONAL</h4>
-        <div style="padding:15px; box-shadow: 0px 1px 1px 1px #C2C0C8;">
-        <img src="Images/Blocbox/userimage2.png" style="width:150px;height:150px;border-radius:50%;margin-bottom:10px" class=".img-rounded" alt="Image"><br>
-        <p style="color:#391D6A;">Omneet Lachhar <br> 29 / SF Bay / Engineer </br></p>
-        <br>
-          <p class="motives">Motivations</p>
-            <li class="p1">Uses CloudApp and DropBox</li>
-          <li class="p1">Shares funny memes on Slack</li>
-          <li class="p1">Uses a lot of sticky notes</li>
-
-          <br>
-
-          <p class="frust">Frustrations</p>
-          <li class="p1">Wants to edit photos fast</li>
-          <li class="p1">Limited sharing capabilities</li>
-
-
-        </div>
-      </div>
-    </div>
-  </div>
-  </div><br><br><br>
-
-
-
-
-  <div class="text-center">
-    <h4 class="minortitles heading text-left" >COMPETITIVE ANALYSIS</h4>
-    <div class="frustrationlist row" style="width:70%;margin:auto">
-      <p class="masterp text-left">
-        After getting to know the users, it was clear they want to save,
-        share, and organize their items in one place. There are many platforms
-        out there similar to Blocbox, however each are designed for different users.
-        You can view the full SWOT analysis of each platform below:
-      </p>
-      <br><br><br>
-    </div>
-    <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
-    <div class="frustrationlist row" style="width:70%;margin:auto">
-      <div class="col-sm-4" style="min-width:200px;">
-        <div style="background-color:#FFFFFF;padding:10px;box-shadow: 0px 1px 1px 1px #C2C0C8;">
-          <h4 class="text-center"><img src="Images/Blocbox/boxlogo.png" style="width:auto;max-height:50px" alt="Image"></h4>
-          <div style="min-height:120px">
-          <img src="Images/Home/greencheck.png" style="width:20px;height:20px;border-radius:50%;margin-bottom:10px" alt="Image">
-          <p class="motives">Users Liked </p>
-            <li class="p1">Sleek and innovative design</li>
-            <li class="p1">Useful and relevant testimonials</li>
-          </div>
-          <div style="min-height:100px">
-          <img src="Images/Home/redx.png" style="width:20px;height:20px;border-radius:50%;" alt="Image">
-            <p class="frust" >Users Disliked </p>
-              <li class="p1">Lengthy sign up process</li>
-              <li class="p1">Confusing navigation at times</li>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4" style="min-width:200px;">
-        <div style="background-color:#FFFFFF;padding:10px;box-shadow: 0px 1px 1px 1px #C2C0C8;">
-          <h4 class="text-center"><img src="Images/Blocbox/egnytelogo.png" style="width:auto;max-height:50px" alt="Image"></h4>
-          <div style="min-height:120px">
-            <img src="Images/Home/greencheck.png" style="width:20px;height:20px;border-radius:50%;margin-bottom:10px" alt="Image">
-            <p class="motives">Users Liked </p>
-              <li class="p1">Simple navigation/ easy to use</li>
-              <li class="p1">Professional and clean design</li>
-
-          </div>
-          <div style="min-height:100px">
-            <img src="Images/Home/redx.png" style="width:20px;height:20px;border-radius:50%;" alt="Image">
-            <p class="frust">Users Disliked </p>
-              <li class="p1">Catered to specific industries</li>
-              <li class="p1">Lengthy sign up process</li>
-
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4" style="min-width:200px">
-        <div style="background-color:#FFFFFF;padding:10px;box-shadow: 0px 1px 1px 1px #C2C0C8;">
-        <h4 class="text-center"><img src="Images/Blocbox/cloudapplogo.png" style="width:auto;max-height:50px" alt="Image"></h4>
-          <div style="min-height:120px">
-            <img src="Images/Home/greencheck.png" style="width:20px;height:20px;border-radius:50%;margin-bottom:10px" alt="Image">
-            <p class="motives">Users Liked </p>
-              <li class="p1">Simple navigaiton/ easy to use</li>
-              <li class="p1">Easy social media sharing</li>
-
-          </div>
-          <div style="min-height:100px">
-            <img src="Images/Home/redx.png" style="width:20px;height:20px;border-radius:50%;" alt="Image">
-            <p class="frust">Users Disliked </p>
-              <li class="p1">Limited editing tools</li>
-              <li class="p1">Difficult to use with teams</li>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  <br><br><br>
-
-
-    <div class="row" style="width:90%;margin:auto">
-      <p><a href="Images/Blocbox/competitive.pdf" target="_blank" style="font-family:Oxygen; font-size:14px; text-decoration:underline;color:#9B96A7;font-weight:400;">View Full SWOT Analysis</a></p>
-    </div>
-  </div>
-
-
-  </div><br><br><br><br>
-
-  <div class="text-center">
-    <h4 class="majortitles heading text-left" >IDEATION</h4>
-    <div class="row" style="width:70%;margin:auto">
-        <p class="text-left">
-          Based on user research, the ideal user works in a colloborative enviornment,
-          such as tech or design. With this in mind, I created user flows to include social media
-          login, profile creation and of course adding content to a dashboard that can be shared
-          with others. Below are examples of the Blocbox user flows:
-        </p>
-    </div>
-    <div class="row" style="width:70%;margin:auto;margin-top:50px">
-      <h4 class="text-center" style="width:90%;margin:auto;color:rgba(255,105,225,0.67); font-size:20px;">New User Sign Up Flow</h4>
-      <img src="Images/Blocbox/userflownew1.png" style="margin-top:30px;margin-bottom:30px;width:100%;" alt="Image">
-    </div>
-    <div class="row" style="width:79%;margin:auto; margin-top:40px">
-      <h4 class="text-center" style="width:80%;margin:auto;color:rgba(255,105,225,0.67); font-size:20px;">Dashboard Flow</h4>
-      <img src="Images/Blocbox/userflownew2.png" style="margin-top:30px;margin-bottom:30px;width:100%;" alt="Image">
-    </div>
-    <div class="row" style="width:80%;margin:auto">
-      <p><a href="Images/Blocbox/Blocbox User Flows.pdf" target="_blank" style="font-family:Oxygen; font-size:14px; text-decoration:underline;color:#9B96A7;font-weight:400;">View All User Flows</a></p>
-    </div>
-  </div><br><br><br>
-
-  <div class="text-center">
-    <hr style="margin-top:0px">
-    <h4 class="minortitles heading text-left">BRANDING</h4>
-    <div class="row" style="width:70%;margin:auto">
-        <p class="text-left">
-        When designing Blocbox, I created a mind map for logo inspiration.
-        Words such as colloborate, creativity, and simplicity came to mind to help
-        convey the Blocbox brand. Below I sketched potential logos and used various
-        boxes or storage shapes to reflect the brand identity:
-      </p>
-    </div>
-    <br><br>
-    <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
-    <div class="row" style="width:73%;margin:auto">
-      <div class="col-sm-6">
-        <img src="Images/Blocbox/mindmap.png" style="width:90%;box-shadow: 0px 1px 1px 1px #C2C0C8;" alt="Image">
-      </div>
-      <div class="col-sm-6">
-        <img src="Images/Blocbox/logosketches.png" style="width:90%;box-shadow: 0px 1px 1px 1px #C2C0C8;" alt="Image">
-      </div>
-    </div>
-  </div>
-    <br><br><br><br><br>
-    <div class="row" style="width:70%;margin:auto">
-        <p class="text-left">
-        To further develop the visual design, I chose colors to inspire creativity at work.
-        At first, an analgous blue color scheme seemed fitting, however I wanted to use colors
-        that were more bright and lively, again to inspire work teams.  The final color palette
-        below reflects the Blocbox brand and user experience.
-      </p>
-    </div>
-    <br><br>
-    <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
-    <div class="row" style="width:73%;margin:auto">
-      <div class="col-sm-12">
-        <img src="Images/Blocbox/styleguide.png" style="width:100%;" alt="Image">
-      </div>
-    </div>
-  </div>
-  <br><br><br><br><br><br><br><br><br><br>
-
-
-
-  <div class="text-center">
-    <hr style="margin-top:0px">
-    <h4 class="minortitles heading text-left" >WIREFRAMES</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="text-left">
-        Simultaneously, I created wireframes while developing the visual design.
-        Below is an example of my wireframe process with the Blocbox landing page.
-        Within the landing page, it was important to highlight what Blocbox is
-        and the features it offers. Users found the initial landing page layout confusing
-        as the features were spread out. Taking this feedback, I modified this section
-        to list the features in a row for better scanning.
-      </p><br><br>
-    </div>
-    <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
-    <div class="row" style="width:78%;margin:auto">
-      <div class="col-sm-6">
-        <img src="Images/Blocbox/wireframe1.png" style="width:90%;box-shadow: 0px 1px 1px 1px #C2C0C8" alt="Image">
-      </div>
-
-      <div class="col-sm-6">
-        <img src="Images/Blocbox/wireframe2.png" style="width:100%;box-shadow: 0px 1px 1px 1px #C2C0C8;"alt="Image">
-      </div>
-    </div>
-  </div>
   <br><br><br><br><br>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="text-left">
-        Another wireframe example is the Blocbox account settings page.
-        Users found the page  too busy with input fields, making upgrades a
-        lengthy process. Again, taking this feedback, the account settings page
-        was modified to include a payment modal box, showing less input fields
-        on the page and reducing confusion.  </p>
-      </div>
-        <br><br><br>
-      <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
-      <div class="row" style="width:78%;margin:auto">
-        <div class="col-sm-6">
-          <img src="Images/Blocbox/wireframe3.png" style="width:90%;box-shadow: 0px 1px 1px 1px #C2C0C8" alt="Image">
+
+
+<div class="container" style="width:50%;">
+  <h1>BLOCBOX</h1>
+    <a href="https://projects.invisionapp.com/share/NZD7PK96T#/screens" class="btn2" target="_blank">VIEW PROTOTYPE</a>
+    </p>
+    <div class="row">
+        <div class="col-lg-12">
+            <p class="intro">
+              Mavinn lets you find nearby hotels catered to your travel needs.
+              Using unique filters, search and book hotels best suited for your special occasion.
+            </p>
         </div>
-        <div class="col-sm-6">
-          <img src="Images/Blocbox/wireframe4.png" style="width:90%;box-shadow: 0px 1px 1px 1px #C2C0C8;"alt="Image">
+    </div>
+    <br><br>
+    <div class="row" style="width:100%; height:auto; margin:auto;">
+            <img class="img-responsive" src="Images/Home/blocboxMockup.png"  alt="Image">
         </div>
-      </div>
     </div>
-    <br><br><br><br><br>
-    <div class="row" style="width:80%;margin:auto">
-      <p><a href="https://invis.io/7WD2M6CAY" target="_blank" style="font-family:Oxygen; font-size:14px; text-decoration:underline;color:#9B96A7;font-weight:400;">View All Wireframes</a></p>
-    </div>
-  <br><br><br><br><br><br><br>
+</div><br><br>
 
+<div class="text-left" style="background-color:#fafafa; padding-top:20px;padding-bottom:20px;">
+    <div class="row" style="width:50%;margin:auto">
+        <div class="col-lg-12" style="padding-left:10%;">
+            <div class="col-sm-4";>
+                <p style="font-weight:bold;">Roles</p>
+                <p style="line-height:1.0;">UX Design</p>
+                <p style="line-height:1.0;">Visual Design</p>
+                <p style="line-height:1.0;">Development</p>
+            </div>
+            <div class="col-sm-4">
+                <p style="font-weight:bold;">Deliverables</p>
+                <p style="line-height:1.0;">User Reserach</p>
+                <p style="line-height:1.0;">User Personas</p>
+                <p style="line-height:1.0;">Comp.Analysis</p>
+                <p style="line-height:1.0;">User Flows</p>
+                <p style="line-height:1.0;">Style Guide</p>
+                <p style="line-height:1.0;">Wireframes</p>
+                <p style="line-height:1.0;">User Testing</p>
+                <p style="line-height:1.0;">Prototypes</p>
 
+            </div>
+            <div class="col-sm-4";>
+                <p style="font-weight:bold;">Tools</p>
+                <p style="line-height:1.0;">Sketch</p>
+                <p style="line-height:1.0;">Abobe CS</p>
+                <p style="line-height:1.0;">Balsamiq</p>
+                <p style="line-height:1.0;">Peek</p>
+                <p style="line-height:1.0;">InVision</p>
 
-  <div class="text-center">
-    <h4 class="majortitles heading text-left" >IMPLEMENTATION</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="text-left">
-        Users were asked to upgrade their account from Free to Professional
-        and add a piece of content (image, link or note). When upgrading accounts,
-        75% of users stated there was no indication their profile was updated after adding payment.
-        This lead to highlighting their current account status initially so they know which account
-        plan they have and can easily upgrade.
-      </p>
-      <br><br>
-      <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
-      <div class="row" style="width:100%;margin:auto">
-      <img src="Images/Blocbox/testing1.png" style="width:100%;" alt="Image">
-      </div>
-      </div>
-    <br><br><br><br><br>
-    <p class="text-left">
-      When asked to add content to their dashboard, most users suggested a search
-      bar to easily find their items.  To learn more, I performed a preference test
-      on different positions of the Add button and search bar. 80% of users chose to
-      have the search bar on the right and the add button closer to the left side menu.
-      Using this feedback I was able to apply improvements to the design and create
-      a better user experience.  </p>
-      <br>
-   </div>
-   <div style="margin:auto;background-color:#FCFCFC;padding:30px 20px 20px 20px">
-   <div class="row" style="width:70%;margin:auto">
-   <img src="Images/Blocbox/testing2.png" style="width:100%;" alt="Image">
-    </div>
-  </div>
-  </div>
-<br><br><br><br><br><br><br><br>
-
-
-  <div class="text-center">
-    <hr style="margin-top:0px">
-    <h4 class="minortitles heading text-left" >PROTOTYPE</h4>
-    <div class="row" style="width:70%;margin:auto">
-      <p class="text-left">
-        The prototype for Blocbox can be viewed below.
-        As work enviornments continously change, having tools to ensure efficiency
-        and motivation are essential.  Blocbox helps solve a real work problem by
-        letting users save, share and colloborate in a creative yet simple manner.
-        As next steps, I would further refine the Blocbox design to capture more users and markets.
-      </p><br>
-
-      <a href="https://invis.io/NZD7PK96T" class="btn2" target="_blank">VIEW FINAL DESIGN</a>
-    </div><br><br><br>
-
-    <div class="panel img-responsive">
-      <img class="image" src="Images/Blocbox/bbmockup.png" alt="image">
-    </div>
-
-      </div>
-      </div>
-    </div><br>
-  </div><br><br><br>
-
-  <footer class="page-footer indigo center-on-small-only pt-0">
-
-      <!--Footer Links-->
-      <div class="container">
-
-          <!--First row-->
-          <div class="row">
-
-              <!--First column-->
-              <div class="col-md-12 text-center">
-
-                <div class="footer-socials mb-5 flex-center">
-                    <p class="text-center" style="color:#9B96A7;font-family:Oxygen;">Thanks for visiting <img class="image" src="Images/Home/happiness.png" style="width:18px;"></img></p>
-                    <a href="mailto:nvirdi3@gmail.com" target="_blank" class="icons-sm fb-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-envelope fa-lg white-text mr-md-4"> </i></a>
-                    <a href="https://www.linkedin.com/in/navnitvirdi/" target="_blank" class="icons-sm li-ic" style='color:#9B96A7;padding-right:10px'><i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i></a>
-                </div>
-              </div>
-              <!--/First column-->
-          </div>
-          <!--/First row-->
-      </div>
-      <!--/Footer Links-->
-
-      <!--Copyright-->
-      <br><br><br><br>
-        <div class="footer-copyright">
-            <div class="container-fluid text-right" style="margin-top:50px;font-family:Avenir;font-size:12px;color:#9B96A7;">
-                <span style="color:rgba(255,105,225,0.67);">  © </span> 2017 www.nvirdi.com
             </div>
         </div>
-      <!--/Copyright-->
+    </div>
+</div>
 
-  </footer>
+<br><br><br>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111633989-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<div class="text-left">
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h1>CHALLENGE</h1>
+            <p>Blocbox is a colloborative platform that lets you organize documents,
+              store images, and add links all in one space. Blocbox was my first design
+              project as part of my apprenticeship program, a creative play on the Dropbox
+              platform.</p>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+              <h1>SOLUTION</h1>
+            <p>Blocbox lets users group images, create notes and add links based on
+              projects and teams. You can experience a simple and more intutive way
+              to organize all your work information with the right team members. </p>
+        </div>
+    </div>
+</div>
+<br><br>
+<div class="text-left" style="background-color:#fafafa; padding-top:20px;padding-bottom:20px;">
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h1>DISCOVERY</h1>
 
-  gtag('config', 'UA-111633989-1');
-</script>
+            <p>After reviewing the Blocbox business requirements, I surveyed users to understand
+              how they currently save and share information.<strong style="color:#4C20DE;">72% download or bookmark information
+              while 79% work in a team based enviornment such as design or engineering. 65% found current
+              apps limited when it comes to sharing.</strong>
 
-</body>
-</html>
+              <br><br>
+              I also reviewed current competitors such as Box, DropBox,
+              and Egnyte all of which offer a work space environment but
+              designed differently for their user base. Taking this research,
+              I created personas and user flows to define the design direction.
+        </div>
+    </div>
+</div>
+
+<br><br>
+<div class="text-left" >
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h3>Personas</h3>
+            <p>Madison is the creative director for a fast paced fashion startup.
+              She is constantly on the go and can loose track of her team’s multiple projects,
+              all of which include images ,mockups, timelines, etc.  She can’t always find her
+              saved photos or has a hard time sharing with certain team meambers. As a user,
+              Madison wants to find her saved information faster and share with selected people.</p>
+        </div>
+    </div>
+    <br><br>
+    <div class="row" style="width:50%;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-responsive" src="Images/blocbox/userPersona.png" alt="Image">
+        </div>
+    </div>
+</div>
+<br><br><br>
+<div class="text-left" >
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h3>User Flows</h3>
+            <p>Users like Madison want an easier way to organize their stuff and
+              share it appropriately. With this in mind, I created user flows focused
+              on colloboration and dashboard set up. Having a blank dashboard for new
+              users helps guide them to add content and manage their colloborators.</p>
+        </div>
+    </div>
+    <br>
+    <div class="text-center row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-responsive" src="Images/blocbox/userFlow.png" alt="Image">
+        </div>
+    </div>
+</div>
+<br><br><br>
+
+<div class="text-left" style="background-color:#fafafa; padding-top:20px;padding-bottom:20px;">
+        <div class="row" style="width:60%;margin:auto">
+            <div class="col-lg-12">
+                <h1>IDEATION</h1>
+                <p>Throughout the wireframe process, I refined elements based on user feedback and
+                  created a brand identity that inspired creativity and collobration in work enviornments.
+                  Rounded typeface and vivid colors were chosen to reflect the brand and wireframes were
+                  continously changed to align with user goals.</p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-responsive" style="width:90%;display:block;margin-left:5%;"src="Images/blocbox/ideation1.png" alt="Image">
+        </div>
+      </div>
+      <br><br><br><br>
+        <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-responsive" style="width:90%;display:block;margin-left:5%;"src="Images/blocbox/ideation2.png" alt="Image">
+        </div>
+    </div>
+<br><br><br><br>
+<div class="text-left" >
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <h3>User Testing</h3>
+            <p>Through click tests, users were asked to add content to their dashboard and most users
+              suggested a search bar to easily find their items.  To learn more, I performed a preference
+              test on different positions of the Add button and search bar. 80% of users chose to have the
+              search bar on the right and the add button closer to the left side menu. Using this feedback
+              I was able to apply design changes and create a better user experience. </p>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="row" style="width:60%; height:auto;margin:auto">
+        <div class="col-lg-12">
+            <img class="img-resposive" style="width:90%;display:block;margin-left:5%;" src="Images/blocbox/userTest.png"  alt="Image">
+        </div>
+    </div>
+    </div>
+    <br><br><br><br>
+    <div class="text-left" style="background-color:#fafafa; padding-top:20px;padding-bottom:20px;">
+        <div class="row" style="width:60%;margin:auto">
+            <div class="col-lg-12">
+                <h1>CONCLUSION</h1>
+                <p>Blocbox helps solve a real work problem by letting users save,
+                  share and colloborate in a creative yet simple manner. This ultimately helps
+                  work teams be more productive and organized. Through research and user testing,
+                  I was able to make design changes quickly and truly understand the user goals.
+                  Using InVision, the Blocbox prototype can be viewed below.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row" style="width:60%;margin:auto">
+        <div class="col-lg-12">
+            <a href="https://projects.invisionapp.com/share/NZD7PK96T#/screens" class="btn2" target="_blank">VIEW PROTOTYPE</a>
+        </div>
+    </div>
+</div>
+<br>
+<div class="row" style="width:60%;margin:auto">
+    <div class="col-lg-12">
+      <a href= "http://www.nvirdi.com/mavinn" style="color:#4C20DE;font-size:20px;font-weight:bold;"><  </a>  <a href="http://www.nvirdi.com/chefo" style="color:#000000;font-weight:600;font-family:'Source Sans Pro'; font-size:20px;" > NEXT CASE STUDY <strong style="font-size:22px;color:#4C20DE;">></strong></a>
+    </div>
+</div>
+<br><br><br>
 
