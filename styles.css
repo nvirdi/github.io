@@ -51,6 +51,7 @@
 
 .rectangle:hover {
     background: #333333;
+    cursor: pointer;
 }
 
 
