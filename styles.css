@@ -574,3 +574,7 @@
     padding-left: 0px;
     padding-right: 0px;
 }
+
+.hihover:hover {
+    font-family: "hk_groteskbold";
+}
