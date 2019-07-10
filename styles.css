@@ -578,3 +578,11 @@
 .hihover:hover {
     font-family: "hk_groteskbold";
 }
+
+.navi {
+    width: 70px;
+}
+
+.navi:hover {
+    width: 80px;
+}
