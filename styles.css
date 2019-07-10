@@ -586,3 +586,11 @@
 .navi:hover {
     width: 80px;
 }
+
+.bothnavi {
+    width: 60%;
+}
+
+.bothnavi:hover {
+    width: 63%;
+}
